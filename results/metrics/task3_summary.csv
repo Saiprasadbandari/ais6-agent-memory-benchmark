@@ -1,0 +1,5 @@
+Setting,Accuracy (%),95% CI,Gain vs Ref (pts),Evidence Coverage (%),Stored Memories,Answer Tokens,Build Tokens,Answer Token Reduction (%),Total Sec (incl. Build),Lost at Write (%),Ignored at Read (%),McNemar p-val
+Truncation (Ref),41.0,"[32.0, 52.0]",0.0,35.0,0,7939,0,93.1,1.87,89.8,10.2,1.0
+M1 Default (top_k=5),61.0,"[52.0, 70.0]",20.0,64.0,41,380,116500,99.7,22.28,82.1,17.9,0.0037
+M2 Custom Dated+Updates (top_k=5),72.0,"[63.0, 81.0]",31.0,83.0,56,437,119200,99.6,23.62,53.6,46.4,0.0
+M3 Default (top_k=10),69.0,"[59.0, 78.0]",28.0,74.0,41,760,116500,99.3,22.51,61.3,38.7,0.0001

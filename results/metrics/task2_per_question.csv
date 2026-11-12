@@ -1,0 +1,1001 @@
+question_id,question_type,strategy,unit,correct,evidence_recall_turn,evidence_recall_session,error_type,prompt_tokens,retrieval_seconds,answer_seconds,total_seconds,peak_gpu_gb
+LME_000,single-session-detail,S1 Truncation (4k),truncation,1,1,1,correct,4119,0.01,1.37,1.36,5.1
+LME_000,single-session-detail,S1 Truncation (8k),truncation,1,1,1,correct,7927,0.02,1.84,1.87,5.4
+LME_000,single-session-detail,S1 Truncation (16k),truncation,1,1,1,correct,15825,0.03,3.14,3.13,6.9
+LME_000,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,629,0.38,0.96,1.3,4.9
+LME_000,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1017,0.39,1.09,1.44,5.0
+LME_000,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2080,0.41,1.23,1.69,5.2
+LME_000,single-session-detail,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4627,0.29,1.47,1.84,5.4
+LME_000,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7598,0.3,1.81,2.12,5.6
+LME_000,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2816,0.34,1.22,1.58,5.2
+LME_000,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114775,0.0,29.45,29.4,14.6
+LME_001,single-session-detail,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4096,0.01,1.37,1.36,5.1
+LME_001,single-session-detail,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7968,0.02,1.87,1.87,5.4
+LME_001,single-session-detail,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15839,0.03,3.12,3.13,6.9
+LME_001,single-session-detail,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,605,0.38,0.85,1.3,4.9
+LME_001,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1036,0.39,0.98,1.44,5.0
+LME_001,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2071,0.41,1.21,1.69,5.2
+LME_001,single-session-detail,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4643,0.29,1.6,1.84,5.4
+LME_001,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7634,0.3,1.86,2.12,5.6
+LME_001,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2819,0.34,1.18,1.58,5.2
+LME_001,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114771,0.0,29.33,29.4,14.6
+LME_002,single-session-detail,S1 Truncation (4k),truncation,1,1,1,correct,4057,0.01,1.34,1.36,5.1
+LME_002,single-session-detail,S1 Truncation (8k),truncation,0,1,1,ignored_by_reader,7952,0.02,1.81,1.87,5.4
+LME_002,single-session-detail,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15815,0.03,3.07,3.13,6.9
+LME_002,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,597,0.38,0.96,1.3,4.9
+LME_002,single-session-detail,S3 Turn (k=5),single_turn,0,1,1,ignored_by_reader,1034,0.39,1.03,1.44,5.0
+LME_002,single-session-detail,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2073,0.41,1.22,1.69,5.2
+LME_002,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4619,0.29,1.55,1.84,5.4
+LME_002,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7586,0.3,1.81,2.12,5.6
+LME_002,single-session-detail,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2844,0.34,1.31,1.58,5.2
+LME_002,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114828,0.0,29.42,29.4,14.6
+LME_003,single-session-detail,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4077,0.01,1.29,1.36,5.1
+LME_003,single-session-detail,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7911,0.02,1.87,1.87,5.4
+LME_003,single-session-detail,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15800,0.03,3.07,3.13,6.9
+LME_003,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,625,0.38,0.93,1.3,4.9
+LME_003,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1027,0.39,1.06,1.44,5.0
+LME_003,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2056,0.41,1.3,1.69,5.2
+LME_003,single-session-detail,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4656,0.29,1.57,1.84,5.4
+LME_003,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7581,0.3,1.79,2.12,5.6
+LME_003,single-session-detail,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2838,0.34,1.27,1.58,5.2
+LME_003,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114837,0.0,29.35,29.4,14.6
+LME_004,single-session-detail,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4102,0.01,1.42,1.36,5.1
+LME_004,single-session-detail,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7932,0.02,1.84,1.87,5.4
+LME_004,single-session-detail,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15796,0.03,3.13,3.13,6.9
+LME_004,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,649,0.38,0.86,1.3,4.9
+LME_004,single-session-detail,S3 Turn (k=5),single_turn,0,0,0,lost_by_memory,1024,0.39,1.05,1.44,5.0
+LME_004,single-session-detail,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2042,0.41,1.34,1.69,5.2
+LME_004,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4635,0.29,1.6,1.84,5.4
+LME_004,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7588,0.3,1.89,2.12,5.6
+LME_004,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2865,0.34,1.19,1.58,5.2
+LME_004,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114814,0.0,29.36,29.4,14.6
+LME_005,single-session-detail,S1 Truncation (4k),truncation,1,1,1,correct,4064,0.01,1.28,1.36,5.1
+LME_005,single-session-detail,S1 Truncation (8k),truncation,1,1,1,correct,7946,0.02,1.86,1.87,5.4
+LME_005,single-session-detail,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15836,0.03,3.14,3.13,6.9
+LME_005,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,611,0.38,0.85,1.3,4.9
+LME_005,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1071,0.39,1.12,1.44,5.0
+LME_005,single-session-detail,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2113,0.41,1.32,1.69,5.2
+LME_005,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4689,0.29,1.53,1.84,5.4
+LME_005,single-session-detail,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7637,0.3,1.84,2.12,5.6
+LME_005,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2873,0.34,1.26,1.58,5.2
+LME_005,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114833,0.0,29.39,29.4,14.6
+LME_006,single-session-detail,S1 Truncation (4k),truncation,1,1,1,correct,4135,0.01,1.27,1.36,5.1
+LME_006,single-session-detail,S1 Truncation (8k),truncation,1,1,1,correct,7938,0.02,1.87,1.87,5.4
+LME_006,single-session-detail,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15776,0.03,3.15,3.13,6.9
+LME_006,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,586,0.38,0.98,1.3,4.9
+LME_006,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1002,0.39,1.1,1.44,5.0
+LME_006,single-session-detail,S3 Turn (k=10),single_turn,0,0,0,lost_by_memory,2048,0.41,1.3,1.69,5.2
+LME_006,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4652,0.29,1.63,1.84,5.4
+LME_006,single-session-detail,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7623,0.3,1.88,2.12,5.6
+LME_006,single-session-detail,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2810,0.34,1.26,1.58,5.2
+LME_006,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114780,0.0,29.45,29.4,14.6
+LME_007,single-session-detail,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4105,0.01,1.31,1.36,5.1
+LME_007,single-session-detail,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7935,0.02,1.79,1.87,5.4
+LME_007,single-session-detail,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15816,0.03,3.14,3.13,6.9
+LME_007,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,636,0.38,0.99,1.3,4.9
+LME_007,single-session-detail,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1059,0.39,1.05,1.44,5.0
+LME_007,single-session-detail,S3 Turn (k=10),single_turn,0,0,0,lost_by_memory,2041,0.41,1.32,1.69,5.2
+LME_007,single-session-detail,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4650,0.29,1.54,1.84,5.4
+LME_007,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7636,0.3,1.88,2.12,5.6
+LME_007,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2871,0.34,1.17,1.58,5.2
+LME_007,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114835,0.0,29.34,29.4,14.6
+LME_008,single-session-detail,S1 Truncation (4k),truncation,1,1,1,correct,4118,0.01,1.42,1.36,5.1
+LME_008,single-session-detail,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7973,0.02,1.9,1.87,5.4
+LME_008,single-session-detail,S1 Truncation (16k),truncation,1,1,1,correct,15798,0.03,3.09,3.13,6.9
+LME_008,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,633,0.38,0.93,1.3,4.9
+LME_008,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1058,0.39,1.08,1.44,5.0
+LME_008,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2055,0.41,1.3,1.69,5.2
+LME_008,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4626,0.29,1.6,1.84,5.4
+LME_008,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7637,0.3,1.74,2.12,5.6
+LME_008,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2882,0.34,1.23,1.58,5.2
+LME_008,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114780,0.0,29.39,29.4,14.6
+LME_009,single-session-detail,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4090,0.01,1.4,1.36,5.1
+LME_009,single-session-detail,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7969,0.02,1.87,1.87,5.4
+LME_009,single-session-detail,S1 Truncation (16k),truncation,1,1,1,correct,15824,0.03,3.09,3.13,6.9
+LME_009,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,588,0.38,0.98,1.3,4.9
+LME_009,single-session-detail,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1077,0.39,1.02,1.44,5.0
+LME_009,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2070,0.41,1.22,1.69,5.2
+LME_009,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4668,0.29,1.51,1.84,5.4
+LME_009,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7624,0.3,1.88,2.12,5.6
+LME_009,single-session-detail,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2860,0.34,1.23,1.58,5.2
+LME_009,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114765,0.0,29.46,29.4,14.6
+LME_010,single-session-detail,S1 Truncation (4k),truncation,1,1,1,correct,4103,0.01,1.43,1.36,5.1
+LME_010,single-session-detail,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7966,0.02,1.8,1.87,5.4
+LME_010,single-session-detail,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15834,0.03,3.11,3.13,6.9
+LME_010,single-session-detail,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,622,0.38,0.99,1.3,4.9
+LME_010,single-session-detail,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1011,0.39,1.08,1.44,5.0
+LME_010,single-session-detail,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2062,0.41,1.35,1.69,5.2
+LME_010,single-session-detail,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4673,0.29,1.47,1.84,5.4
+LME_010,single-session-detail,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7612,0.3,1.89,2.12,5.6
+LME_010,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2846,0.34,1.22,1.58,5.2
+LME_010,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114793,0.0,29.44,29.4,14.6
+LME_011,single-session-detail,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4101,0.01,1.42,1.36,5.1
+LME_011,single-session-detail,S1 Truncation (8k),truncation,1,1,1,correct,7956,0.02,1.8,1.87,5.4
+LME_011,single-session-detail,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15808,0.03,3.14,3.13,6.9
+LME_011,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,582,0.38,0.98,1.3,4.9
+LME_011,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1016,0.39,1.01,1.44,5.0
+LME_011,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2091,0.41,1.34,1.69,5.2
+LME_011,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4659,0.29,1.62,1.84,5.4
+LME_011,single-session-detail,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7659,0.3,1.84,2.12,5.6
+LME_011,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2887,0.34,1.22,1.58,5.2
+LME_011,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114770,0.0,29.37,29.4,14.6
+LME_012,single-session-detail,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4118,0.01,1.31,1.36,5.1
+LME_012,single-session-detail,S1 Truncation (8k),truncation,1,1,1,correct,7955,0.02,1.89,1.87,5.4
+LME_012,single-session-detail,S1 Truncation (16k),truncation,1,1,1,correct,15836,0.03,3.06,3.13,6.9
+LME_012,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,614,0.38,0.92,1.3,4.9
+LME_012,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1034,0.39,1.09,1.44,5.0
+LME_012,single-session-detail,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2072,0.41,1.31,1.69,5.2
+LME_012,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4639,0.29,1.6,1.84,5.4
+LME_012,single-session-detail,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7615,0.3,1.83,2.12,5.6
+LME_012,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2826,0.34,1.21,1.58,5.2
+LME_012,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114788,0.0,29.44,29.4,14.6
+LME_013,single-session-detail,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4127,0.01,1.36,1.36,5.1
+LME_013,single-session-detail,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7908,0.02,1.92,1.87,5.4
+LME_013,single-session-detail,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15791,0.03,3.11,3.13,6.9
+LME_013,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,647,0.38,0.94,1.3,4.9
+LME_013,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1064,0.39,1.0,1.44,5.0
+LME_013,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2113,0.41,1.34,1.69,5.2
+LME_013,single-session-detail,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4637,0.29,1.61,1.84,5.4
+LME_013,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7644,0.3,1.79,2.12,5.6
+LME_013,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2874,0.34,1.31,1.58,5.2
+LME_013,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114801,0.0,29.47,29.4,14.6
+LME_014,single-session-detail,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4084,0.01,1.28,1.36,5.1
+LME_014,single-session-detail,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7963,0.02,1.78,1.87,5.4
+LME_014,single-session-detail,S1 Truncation (16k),truncation,1,1,1,correct,15795,0.03,3.04,3.13,6.9
+LME_014,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,653,0.38,0.9,1.3,4.9
+LME_014,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1022,0.39,1.06,1.44,5.0
+LME_014,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2053,0.41,1.24,1.69,5.2
+LME_014,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4647,0.29,1.63,1.84,5.4
+LME_014,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7609,0.3,1.9,2.12,5.6
+LME_014,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2829,0.34,1.24,1.58,5.2
+LME_014,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114783,0.0,29.36,29.4,14.6
+LME_015,single-session-detail,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4113,0.01,1.4,1.36,5.1
+LME_015,single-session-detail,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7915,0.02,1.78,1.87,5.4
+LME_015,single-session-detail,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15823,0.03,3.06,3.13,6.9
+LME_015,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,650,0.38,0.99,1.3,4.9
+LME_015,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1039,0.39,1.06,1.44,5.0
+LME_015,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2075,0.41,1.2,1.69,5.2
+LME_015,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4679,0.29,1.5,1.84,5.4
+LME_015,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7634,0.3,1.86,2.12,5.6
+LME_015,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2822,0.34,1.25,1.58,5.2
+LME_015,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114800,0.0,29.35,29.4,14.6
+LME_016,single-session-detail,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4071,0.01,1.31,1.36,5.1
+LME_016,single-session-detail,S1 Truncation (8k),truncation,0,1,1,ignored_by_reader,7938,0.02,1.81,1.87,5.4
+LME_016,single-session-detail,S1 Truncation (16k),truncation,1,1,1,correct,15809,0.03,3.06,3.13,6.9
+LME_016,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,617,0.38,0.88,1.3,4.9
+LME_016,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1042,0.39,1.03,1.44,5.0
+LME_016,single-session-detail,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2102,0.41,1.22,1.69,5.2
+LME_016,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4670,0.29,1.63,1.84,5.4
+LME_016,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7633,0.3,1.86,2.12,5.6
+LME_016,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2830,0.34,1.17,1.58,5.2
+LME_016,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114777,0.0,29.43,29.4,14.6
+LME_017,single-session-detail,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4097,0.01,1.3,1.36,5.1
+LME_017,single-session-detail,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7938,0.02,1.79,1.87,5.4
+LME_017,single-session-detail,S1 Truncation (16k),truncation,1,1,1,correct,15802,0.03,3.04,3.13,6.9
+LME_017,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,602,0.38,0.94,1.3,4.9
+LME_017,single-session-detail,S3 Turn (k=5),single_turn,0,1,1,ignored_by_reader,1001,0.39,1.08,1.44,5.0
+LME_017,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2065,0.41,1.23,1.69,5.2
+LME_017,single-session-detail,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4638,0.29,1.61,1.84,5.4
+LME_017,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7652,0.3,1.86,2.12,5.6
+LME_017,single-session-detail,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2879,0.34,1.2,1.58,5.2
+LME_017,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114836,0.0,29.47,29.4,14.6
+LME_018,single-session-detail,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4121,0.01,1.37,1.36,5.1
+LME_018,single-session-detail,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7965,0.02,1.86,1.87,5.4
+LME_018,single-session-detail,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15795,0.03,3.15,3.13,6.9
+LME_018,single-session-detail,S3 Turn (k=3),single_turn,1,1,1,correct,612,0.38,0.96,1.3,4.9
+LME_018,single-session-detail,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1053,0.39,1.0,1.44,5.0
+LME_018,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2091,0.41,1.26,1.69,5.2
+LME_018,single-session-detail,S3 Session (k=3),whole_session,1,1,1,correct,4627,0.29,1.5,1.84,5.4
+LME_018,single-session-detail,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7601,0.3,1.76,2.12,5.6
+LME_018,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2873,0.34,1.32,1.58,5.2
+LME_018,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114836,0.0,29.35,29.4,14.6
+LME_019,single-session-detail,S1 Truncation (4k),truncation,1,1,1,correct,4115,0.01,1.3,1.36,5.1
+LME_019,single-session-detail,S1 Truncation (8k),truncation,1,1,1,correct,7963,0.02,1.79,1.87,5.4
+LME_019,single-session-detail,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15786,0.03,3.16,3.13,6.9
+LME_019,single-session-detail,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,632,0.38,0.93,1.3,4.9
+LME_019,single-session-detail,S3 Turn (k=5),single_turn,1,1,1,correct,1078,0.39,1.0,1.44,5.0
+LME_019,single-session-detail,S3 Turn (k=10),single_turn,1,1,1,correct,2056,0.41,1.25,1.69,5.2
+LME_019,single-session-detail,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4681,0.29,1.56,1.84,5.4
+LME_019,single-session-detail,S3 Session (k=5),whole_session,1,1,1,correct,7589,0.3,1.76,2.12,5.6
+LME_019,single-session-detail,S3 Segment (k=5),topic_segment,1,1,1,correct,2831,0.34,1.18,1.58,5.2
+LME_019,single-session-detail,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114827,0.0,29.44,29.4,14.6
+LME_020,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4066,0.01,1.33,1.36,5.1
+LME_020,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7923,0.02,1.89,1.87,5.4
+LME_020,multi-session-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15831,0.03,3.13,3.13,6.9
+LME_020,multi-session-reasoning,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,585,0.38,0.86,1.3,4.9
+LME_020,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1038,0.39,1.13,1.44,5.0
+LME_020,multi-session-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2113,0.41,1.23,1.69,5.2
+LME_020,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4665,0.29,1.56,1.84,5.4
+LME_020,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7641,0.3,1.84,2.12,5.6
+LME_020,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2881,0.34,1.25,1.58,5.2
+LME_020,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114789,0.0,29.4,29.4,14.6
+LME_021,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4131,0.01,1.28,1.36,5.1
+LME_021,multi-session-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7900,0.02,1.81,1.87,5.4
+LME_021,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15777,0.03,3.13,3.13,6.9
+LME_021,multi-session-reasoning,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,589,0.38,0.89,1.3,4.9
+LME_021,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1074,0.39,1.12,1.44,5.0
+LME_021,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2082,0.41,1.26,1.69,5.2
+LME_021,multi-session-reasoning,S3 Session (k=3),whole_session,0,0,0,lost_by_memory,4615,0.29,1.6,1.84,5.4
+LME_021,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7643,0.3,1.83,2.12,5.6
+LME_021,multi-session-reasoning,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2823,0.34,1.31,1.58,5.2
+LME_021,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114773,0.0,29.45,29.4,14.6
+LME_022,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4069,0.01,1.37,1.36,5.1
+LME_022,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7964,0.02,1.91,1.87,5.4
+LME_022,multi-session-reasoning,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15810,0.03,3.15,3.13,6.9
+LME_022,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,595,0.38,0.91,1.3,4.9
+LME_022,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1068,0.39,1.01,1.44,5.0
+LME_022,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2099,0.41,1.34,1.69,5.2
+LME_022,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4686,0.29,1.61,1.84,5.4
+LME_022,multi-session-reasoning,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7598,0.3,1.86,2.12,5.6
+LME_022,multi-session-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2875,0.34,1.25,1.58,5.2
+LME_022,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114797,0.0,29.42,29.4,14.6
+LME_023,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4061,0.01,1.36,1.36,5.1
+LME_023,multi-session-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7916,0.02,1.82,1.87,5.4
+LME_023,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15799,0.03,3.08,3.13,6.9
+LME_023,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,619,0.38,0.85,1.3,4.9
+LME_023,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1003,0.39,1.08,1.44,5.0
+LME_023,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2073,0.41,1.31,1.69,5.2
+LME_023,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4610,0.29,1.62,1.84,5.4
+LME_023,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7619,0.3,1.89,2.12,5.6
+LME_023,multi-session-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2818,0.34,1.18,1.58,5.2
+LME_023,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114801,0.0,29.46,29.4,14.6
+LME_024,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4069,0.01,1.4,1.36,5.1
+LME_024,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7974,0.02,1.82,1.87,5.4
+LME_024,multi-session-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15764,0.03,3.1,3.13,6.9
+LME_024,multi-session-reasoning,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,629,0.38,0.96,1.3,4.9
+LME_024,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1059,0.39,0.99,1.44,5.0
+LME_024,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2063,0.41,1.22,1.69,5.2
+LME_024,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4612,0.29,1.62,1.84,5.4
+LME_024,multi-session-reasoning,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7621,0.3,1.8,2.12,5.6
+LME_024,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2841,0.34,1.23,1.58,5.2
+LME_024,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114806,0.0,29.43,29.4,14.6
+LME_025,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4125,0.01,1.33,1.36,5.1
+LME_025,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7945,0.02,1.79,1.87,5.4
+LME_025,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15783,0.03,3.09,3.13,6.9
+LME_025,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,657,0.38,0.85,1.3,4.9
+LME_025,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1039,0.39,1.03,1.44,5.0
+LME_025,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2092,0.41,1.3,1.69,5.2
+LME_025,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4616,0.29,1.52,1.84,5.4
+LME_025,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7590,0.3,1.76,2.12,5.6
+LME_025,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2886,0.34,1.3,1.58,5.2
+LME_025,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114782,0.0,29.41,29.4,14.6
+LME_026,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4105,0.01,1.3,1.36,5.1
+LME_026,multi-session-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7949,0.02,1.88,1.87,5.4
+LME_026,multi-session-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15773,0.03,3.08,3.13,6.9
+LME_026,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,647,0.38,0.89,1.3,4.9
+LME_026,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1068,0.39,1.06,1.44,5.0
+LME_026,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2092,0.41,1.24,1.69,5.2
+LME_026,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4678,0.29,1.53,1.84,5.4
+LME_026,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7613,0.3,1.78,2.12,5.6
+LME_026,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2852,0.34,1.2,1.58,5.2
+LME_026,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114825,0.0,29.41,29.4,14.6
+LME_027,multi-session-reasoning,S1 Truncation (4k),truncation,0,1,1,ignored_by_reader,4096,0.01,1.39,1.36,5.1
+LME_027,multi-session-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7913,0.02,1.88,1.87,5.4
+LME_027,multi-session-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15823,0.03,3.07,3.13,6.9
+LME_027,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,633,0.38,0.98,1.3,4.9
+LME_027,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1058,0.39,0.99,1.44,5.0
+LME_027,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2076,0.41,1.23,1.69,5.2
+LME_027,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4680,0.29,1.57,1.84,5.4
+LME_027,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7616,0.3,1.85,2.12,5.6
+LME_027,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2867,0.34,1.3,1.58,5.2
+LME_027,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114824,0.0,29.32,29.4,14.6
+LME_028,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4096,0.01,1.38,1.36,5.1
+LME_028,multi-session-reasoning,S1 Truncation (8k),truncation,0,1,1,ignored_by_reader,7935,0.02,1.9,1.87,5.4
+LME_028,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15798,0.03,3.13,3.13,6.9
+LME_028,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,609,0.38,0.98,1.3,4.9
+LME_028,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1036,0.39,1.0,1.44,5.0
+LME_028,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2072,0.41,1.28,1.69,5.2
+LME_028,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4611,0.29,1.53,1.84,5.4
+LME_028,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7657,0.3,1.83,2.12,5.6
+LME_028,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2873,0.34,1.2,1.58,5.2
+LME_028,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114792,0.0,29.47,29.4,14.6
+LME_029,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4095,0.01,1.38,1.36,5.1
+LME_029,multi-session-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7932,0.02,1.79,1.87,5.4
+LME_029,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15827,0.03,3.09,3.13,6.9
+LME_029,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,651,0.38,0.89,1.3,4.9
+LME_029,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1045,0.39,1.12,1.44,5.0
+LME_029,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2069,0.41,1.23,1.69,5.2
+LME_029,multi-session-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4639,0.29,1.57,1.84,5.4
+LME_029,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7629,0.3,1.85,2.12,5.6
+LME_029,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2889,0.34,1.25,1.58,5.2
+LME_029,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114775,0.0,29.32,29.4,14.6
+LME_030,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4096,0.01,1.31,1.36,5.1
+LME_030,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7919,0.02,1.78,1.87,5.4
+LME_030,multi-session-reasoning,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15798,0.03,3.03,3.13,6.9
+LME_030,multi-session-reasoning,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,580,0.38,0.95,1.3,4.9
+LME_030,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1000,0.39,1.04,1.44,5.0
+LME_030,multi-session-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2088,0.41,1.21,1.69,5.2
+LME_030,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4670,0.29,1.49,1.84,5.4
+LME_030,multi-session-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7628,0.3,1.88,2.12,5.6
+LME_030,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2873,0.34,1.29,1.58,5.2
+LME_030,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114803,0.0,29.4,29.4,14.6
+LME_031,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4058,0.01,1.29,1.36,5.1
+LME_031,multi-session-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7931,0.02,1.82,1.87,5.4
+LME_031,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15835,0.03,3.18,3.13,6.9
+LME_031,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,622,0.38,0.85,1.3,4.9
+LME_031,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1039,0.39,0.99,1.44,5.0
+LME_031,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2051,0.41,1.32,1.69,5.2
+LME_031,multi-session-reasoning,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4640,0.29,1.55,1.84,5.4
+LME_031,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7598,0.3,1.9,2.12,5.6
+LME_031,multi-session-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2883,0.34,1.17,1.58,5.2
+LME_031,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114761,0.0,29.44,29.4,14.6
+LME_032,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4075,0.01,1.38,1.36,5.1
+LME_032,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7971,0.02,1.85,1.87,5.4
+LME_032,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15837,0.03,3.11,3.13,6.9
+LME_032,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,588,0.38,0.87,1.3,4.9
+LME_032,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1006,0.39,1.03,1.44,5.0
+LME_032,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2089,0.41,1.24,1.69,5.2
+LME_032,multi-session-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4640,0.29,1.59,1.84,5.4
+LME_032,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7623,0.3,1.8,2.12,5.6
+LME_032,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2888,0.34,1.24,1.58,5.2
+LME_032,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114806,0.0,29.36,29.4,14.6
+LME_033,multi-session-reasoning,S1 Truncation (4k),truncation,1,1,1,correct,4107,0.01,1.42,1.36,5.1
+LME_033,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7922,0.02,1.89,1.87,5.4
+LME_033,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15821,0.03,3.13,3.13,6.9
+LME_033,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,655,0.38,0.99,1.3,4.9
+LME_033,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1032,0.39,0.99,1.44,5.0
+LME_033,multi-session-reasoning,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2115,0.41,1.35,1.69,5.2
+LME_033,multi-session-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4651,0.29,1.47,1.84,5.4
+LME_033,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7637,0.3,1.74,2.12,5.6
+LME_033,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2811,0.34,1.22,1.58,5.2
+LME_033,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114769,0.0,29.39,29.4,14.6
+LME_034,multi-session-reasoning,S1 Truncation (4k),truncation,0,1,1,ignored_by_reader,4088,0.01,1.39,1.36,5.1
+LME_034,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7908,0.02,1.82,1.87,5.4
+LME_034,multi-session-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15763,0.03,3.04,3.13,6.9
+LME_034,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,607,0.38,0.89,1.3,4.9
+LME_034,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1039,0.39,1.13,1.44,5.0
+LME_034,multi-session-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2107,0.41,1.36,1.69,5.2
+LME_034,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4614,0.29,1.55,1.84,5.4
+LME_034,multi-session-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7602,0.3,1.84,2.12,5.6
+LME_034,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2811,0.34,1.25,1.58,5.2
+LME_034,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114788,0.0,29.32,29.4,14.6
+LME_035,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4131,0.01,1.31,1.36,5.1
+LME_035,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7928,0.02,1.83,1.87,5.4
+LME_035,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15761,0.03,3.16,3.13,6.9
+LME_035,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,653,0.38,0.88,1.3,4.9
+LME_035,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1006,0.39,1.01,1.44,5.0
+LME_035,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2042,0.41,1.29,1.69,5.2
+LME_035,multi-session-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4646,0.29,1.56,1.84,5.4
+LME_035,multi-session-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7638,0.3,1.8,2.12,5.6
+LME_035,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2811,0.34,1.31,1.58,5.2
+LME_035,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114802,0.0,29.46,29.4,14.6
+LME_036,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4110,0.01,1.28,1.36,5.1
+LME_036,multi-session-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7913,0.02,1.8,1.87,5.4
+LME_036,multi-session-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15768,0.03,3.05,3.13,6.9
+LME_036,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,620,0.38,0.91,1.3,4.9
+LME_036,multi-session-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1066,0.39,1.02,1.44,5.0
+LME_036,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2052,0.41,1.27,1.69,5.2
+LME_036,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4644,0.29,1.63,1.84,5.4
+LME_036,multi-session-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7613,0.3,1.9,2.12,5.6
+LME_036,multi-session-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2860,0.34,1.2,1.58,5.2
+LME_036,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114838,0.0,29.33,29.4,14.6
+LME_037,multi-session-reasoning,S1 Truncation (4k),truncation,1,1,1,correct,4074,0.01,1.38,1.36,5.1
+LME_037,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7940,0.02,1.84,1.87,5.4
+LME_037,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15761,0.03,3.06,3.13,6.9
+LME_037,multi-session-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,618,0.38,0.87,1.3,4.9
+LME_037,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1025,0.39,1.11,1.44,5.0
+LME_037,multi-session-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2069,0.41,1.35,1.69,5.2
+LME_037,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4655,0.29,1.63,1.84,5.4
+LME_037,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7606,0.3,1.76,2.12,5.6
+LME_037,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2848,0.34,1.21,1.58,5.2
+LME_037,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114821,0.0,29.35,29.4,14.6
+LME_038,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4068,0.01,1.33,1.36,5.1
+LME_038,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7909,0.02,1.91,1.87,5.4
+LME_038,multi-session-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15775,0.03,3.08,3.13,6.9
+LME_038,multi-session-reasoning,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,659,0.38,0.93,1.3,4.9
+LME_038,multi-session-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1000,0.39,1.02,1.44,5.0
+LME_038,multi-session-reasoning,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2063,0.41,1.25,1.69,5.2
+LME_038,multi-session-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4660,0.29,1.5,1.84,5.4
+LME_038,multi-session-reasoning,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7625,0.3,1.9,2.12,5.6
+LME_038,multi-session-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2839,0.34,1.24,1.58,5.2
+LME_038,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114836,0.0,29.46,29.4,14.6
+LME_039,multi-session-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4077,0.01,1.4,1.36,5.1
+LME_039,multi-session-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7942,0.02,1.92,1.87,5.4
+LME_039,multi-session-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15766,0.03,3.15,3.13,6.9
+LME_039,multi-session-reasoning,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,655,0.38,0.87,1.3,4.9
+LME_039,multi-session-reasoning,S3 Turn (k=5),single_turn,0,1,1,ignored_by_reader,1018,0.39,0.98,1.44,5.0
+LME_039,multi-session-reasoning,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2089,0.41,1.24,1.69,5.2
+LME_039,multi-session-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4639,0.29,1.63,1.84,5.4
+LME_039,multi-session-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7626,0.3,1.89,2.12,5.6
+LME_039,multi-session-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2849,0.34,1.19,1.58,5.2
+LME_039,multi-session-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114816,0.0,29.39,29.4,14.6
+LME_040,temporal-reasoning,S1 Truncation (4k),truncation,1,1,1,correct,4100,0.01,1.27,1.36,5.1
+LME_040,temporal-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7935,0.02,1.91,1.87,5.4
+LME_040,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15777,0.03,3.15,3.13,6.9
+LME_040,temporal-reasoning,S3 Turn (k=3),single_turn,0,1,1,ignored_by_reader,657,0.38,0.94,1.3,4.9
+LME_040,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1039,0.39,1.02,1.44,5.0
+LME_040,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2107,0.41,1.29,1.69,5.2
+LME_040,temporal-reasoning,S3 Session (k=3),whole_session,0,0,0,lost_by_memory,4682,0.29,1.62,1.84,5.4
+LME_040,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7640,0.3,1.87,2.12,5.6
+LME_040,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2811,0.34,1.31,1.58,5.2
+LME_040,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114806,0.0,29.41,29.4,14.6
+LME_041,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4100,0.01,1.37,1.36,5.1
+LME_041,temporal-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7962,0.02,1.81,1.87,5.4
+LME_041,temporal-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15789,0.03,3.11,3.13,6.9
+LME_041,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,581,0.38,0.98,1.3,4.9
+LME_041,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1052,0.39,1.02,1.44,5.0
+LME_041,temporal-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2092,0.41,1.22,1.69,5.2
+LME_041,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4680,0.29,1.5,1.84,5.4
+LME_041,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7640,0.3,1.89,2.12,5.6
+LME_041,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2843,0.34,1.26,1.58,5.2
+LME_041,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114809,0.0,29.46,29.4,14.6
+LME_042,temporal-reasoning,S1 Truncation (4k),truncation,0,1,1,ignored_by_reader,4079,0.01,1.41,1.36,5.1
+LME_042,temporal-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7948,0.02,1.79,1.87,5.4
+LME_042,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15799,0.03,3.11,3.13,6.9
+LME_042,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,618,0.38,0.96,1.3,4.9
+LME_042,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1057,0.39,1.11,1.44,5.0
+LME_042,temporal-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2068,0.41,1.32,1.69,5.2
+LME_042,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4620,0.29,1.53,1.84,5.4
+LME_042,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7584,0.3,1.89,2.12,5.6
+LME_042,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2857,0.34,1.24,1.58,5.2
+LME_042,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114836,0.0,29.33,29.4,14.6
+LME_043,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4065,0.01,1.38,1.36,5.1
+LME_043,temporal-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7960,0.02,1.8,1.87,5.4
+LME_043,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15770,0.03,3.16,3.13,6.9
+LME_043,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,627,0.38,0.86,1.3,4.9
+LME_043,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1043,0.39,1.06,1.44,5.0
+LME_043,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2105,0.41,1.26,1.69,5.2
+LME_043,temporal-reasoning,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4659,0.29,1.52,1.84,5.4
+LME_043,temporal-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7625,0.3,1.81,2.12,5.6
+LME_043,temporal-reasoning,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2847,0.34,1.3,1.58,5.2
+LME_043,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114817,0.0,29.32,29.4,14.6
+LME_044,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4118,0.01,1.39,1.36,5.1
+LME_044,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7956,0.02,1.86,1.87,5.4
+LME_044,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15803,0.03,3.05,3.13,6.9
+LME_044,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,605,0.38,0.9,1.3,4.9
+LME_044,temporal-reasoning,S3 Turn (k=5),single_turn,0,1,1,ignored_by_reader,1033,0.39,1.12,1.44,5.0
+LME_044,temporal-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2067,0.41,1.31,1.69,5.2
+LME_044,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4655,0.29,1.63,1.84,5.4
+LME_044,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7616,0.3,1.78,2.12,5.6
+LME_044,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2887,0.34,1.22,1.58,5.2
+LME_044,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114787,0.0,29.43,29.4,14.6
+LME_045,temporal-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4061,0.01,1.31,1.36,5.1
+LME_045,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7943,0.02,1.93,1.87,5.4
+LME_045,temporal-reasoning,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15775,0.03,3.12,3.13,6.9
+LME_045,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,593,0.38,0.97,1.3,4.9
+LME_045,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1022,0.39,0.98,1.44,5.0
+LME_045,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2086,0.41,1.26,1.69,5.2
+LME_045,temporal-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4640,0.29,1.59,1.84,5.4
+LME_045,temporal-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7658,0.3,1.9,2.12,5.6
+LME_045,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2865,0.34,1.31,1.58,5.2
+LME_045,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114787,0.0,29.35,29.4,14.6
+LME_046,temporal-reasoning,S1 Truncation (4k),truncation,0,1,1,ignored_by_reader,4092,0.01,1.3,1.36,5.1
+LME_046,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7922,0.02,1.8,1.87,5.4
+LME_046,temporal-reasoning,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15762,0.03,3.07,3.13,6.9
+LME_046,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,618,0.38,0.9,1.3,4.9
+LME_046,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1030,0.39,1.05,1.44,5.0
+LME_046,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2115,0.41,1.3,1.69,5.2
+LME_046,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4647,0.29,1.56,1.84,5.4
+LME_046,temporal-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7658,0.3,1.86,2.12,5.6
+LME_046,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2820,0.34,1.17,1.58,5.2
+LME_046,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114802,0.0,29.36,29.4,14.6
+LME_047,temporal-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4083,0.01,1.4,1.36,5.1
+LME_047,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7937,0.02,1.82,1.87,5.4
+LME_047,temporal-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15769,0.03,3.03,3.13,6.9
+LME_047,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,603,0.38,0.94,1.3,4.9
+LME_047,temporal-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1065,0.39,1.0,1.44,5.0
+LME_047,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2050,0.41,1.26,1.69,5.2
+LME_047,temporal-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4630,0.29,1.56,1.84,5.4
+LME_047,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7647,0.3,1.79,2.12,5.6
+LME_047,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2848,0.34,1.19,1.58,5.2
+LME_047,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114830,0.0,29.32,29.4,14.6
+LME_048,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4098,0.01,1.37,1.36,5.1
+LME_048,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7959,0.02,1.83,1.87,5.4
+LME_048,temporal-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15822,0.03,3.05,3.13,6.9
+LME_048,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,645,0.38,0.89,1.3,4.9
+LME_048,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1049,0.39,1.02,1.44,5.0
+LME_048,temporal-reasoning,S3 Turn (k=10),single_turn,0,0,0,lost_by_memory,2075,0.41,1.22,1.69,5.2
+LME_048,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4641,0.29,1.63,1.84,5.4
+LME_048,temporal-reasoning,S3 Session (k=5),whole_session,0,0,0,lost_by_memory,7621,0.3,1.83,2.12,5.6
+LME_048,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2850,0.34,1.27,1.58,5.2
+LME_048,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114814,0.0,29.4,29.4,14.6
+LME_049,temporal-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4116,0.01,1.42,1.36,5.1
+LME_049,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7965,0.02,1.79,1.87,5.4
+LME_049,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15817,0.03,3.17,3.13,6.9
+LME_049,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,583,0.38,0.89,1.3,4.9
+LME_049,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1075,0.39,1.03,1.44,5.0
+LME_049,temporal-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2119,0.41,1.34,1.69,5.2
+LME_049,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4679,0.29,1.6,1.84,5.4
+LME_049,temporal-reasoning,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7617,0.3,1.82,2.12,5.6
+LME_049,temporal-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2889,0.34,1.19,1.58,5.2
+LME_049,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114769,0.0,29.34,29.4,14.6
+LME_050,temporal-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4105,0.01,1.42,1.36,5.1
+LME_050,temporal-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7969,0.02,1.79,1.87,5.4
+LME_050,temporal-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15787,0.03,3.13,3.13,6.9
+LME_050,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,656,0.38,0.86,1.3,4.9
+LME_050,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1003,0.39,1.09,1.44,5.0
+LME_050,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2049,0.41,1.27,1.69,5.2
+LME_050,temporal-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4689,0.29,1.52,1.84,5.4
+LME_050,temporal-reasoning,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7638,0.3,1.85,2.12,5.6
+LME_050,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2884,0.34,1.32,1.58,5.2
+LME_050,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114829,0.0,29.33,29.4,14.6
+LME_051,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4122,0.01,1.36,1.36,5.1
+LME_051,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7944,0.02,1.9,1.87,5.4
+LME_051,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15797,0.03,3.09,3.13,6.9
+LME_051,temporal-reasoning,S3 Turn (k=3),single_turn,0,1,1,ignored_by_reader,597,0.38,0.92,1.3,4.9
+LME_051,temporal-reasoning,S3 Turn (k=5),single_turn,0,1,1,ignored_by_reader,1010,0.39,1.0,1.44,5.0
+LME_051,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2101,0.41,1.29,1.69,5.2
+LME_051,temporal-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4687,0.29,1.47,1.84,5.4
+LME_051,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7628,0.3,1.89,2.12,5.6
+LME_051,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2825,0.34,1.21,1.58,5.2
+LME_051,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114801,0.0,29.46,29.4,14.6
+LME_052,temporal-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4096,0.01,1.29,1.36,5.1
+LME_052,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7977,0.02,1.82,1.87,5.4
+LME_052,temporal-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15833,0.03,3.08,3.13,6.9
+LME_052,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,581,0.38,1.0,1.3,4.9
+LME_052,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1011,0.39,1.03,1.44,5.0
+LME_052,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2114,0.41,1.3,1.69,5.2
+LME_052,temporal-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4614,0.29,1.52,1.84,5.4
+LME_052,temporal-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7598,0.3,1.8,2.12,5.6
+LME_052,temporal-reasoning,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2839,0.34,1.17,1.58,5.2
+LME_052,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114835,0.0,29.37,29.4,14.6
+LME_053,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4127,0.01,1.28,1.36,5.1
+LME_053,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7958,0.02,1.88,1.87,5.4
+LME_053,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15802,0.03,3.15,3.13,6.9
+LME_053,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,619,0.38,0.98,1.3,4.9
+LME_053,temporal-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1070,0.39,1.04,1.44,5.0
+LME_053,temporal-reasoning,S3 Turn (k=10),single_turn,0,0,0,lost_by_memory,2044,0.41,1.29,1.69,5.2
+LME_053,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4654,0.29,1.62,1.84,5.4
+LME_053,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7586,0.3,1.88,2.12,5.6
+LME_053,temporal-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2844,0.34,1.18,1.58,5.2
+LME_053,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114786,0.0,29.4,29.4,14.6
+LME_054,temporal-reasoning,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4106,0.01,1.37,1.36,5.1
+LME_054,temporal-reasoning,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7950,0.02,1.91,1.87,5.4
+LME_054,temporal-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15773,0.03,3.03,3.13,6.9
+LME_054,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,651,0.38,0.98,1.3,4.9
+LME_054,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1064,0.39,1.06,1.44,5.0
+LME_054,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2103,0.41,1.33,1.69,5.2
+LME_054,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4688,0.29,1.5,1.84,5.4
+LME_054,temporal-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7593,0.3,1.75,2.12,5.6
+LME_054,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2842,0.34,1.31,1.58,5.2
+LME_054,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114820,0.0,29.39,29.4,14.6
+LME_055,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4131,0.01,1.27,1.36,5.1
+LME_055,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7941,0.02,1.91,1.87,5.4
+LME_055,temporal-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15763,0.03,3.11,3.13,6.9
+LME_055,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,614,0.38,1.0,1.3,4.9
+LME_055,temporal-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1000,0.39,1.11,1.44,5.0
+LME_055,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2053,0.41,1.28,1.69,5.2
+LME_055,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4647,0.29,1.61,1.84,5.4
+LME_055,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7604,0.3,1.9,2.12,5.6
+LME_055,temporal-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2862,0.34,1.31,1.58,5.2
+LME_055,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114781,0.0,29.34,29.4,14.6
+LME_056,temporal-reasoning,S1 Truncation (4k),truncation,1,1,1,correct,4132,0.01,1.27,1.36,5.1
+LME_056,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7930,0.02,1.77,1.87,5.4
+LME_056,temporal-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15804,0.03,3.1,3.13,6.9
+LME_056,temporal-reasoning,S3 Turn (k=3),single_turn,1,1,1,correct,612,0.38,0.96,1.3,4.9
+LME_056,temporal-reasoning,S3 Turn (k=5),single_turn,0,1,1,ignored_by_reader,1038,0.39,1.07,1.44,5.0
+LME_056,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2058,0.41,1.26,1.69,5.2
+LME_056,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4612,0.29,1.62,1.84,5.4
+LME_056,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7630,0.3,1.87,2.12,5.6
+LME_056,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2885,0.34,1.3,1.58,5.2
+LME_056,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114789,0.0,29.42,29.4,14.6
+LME_057,temporal-reasoning,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4062,0.01,1.43,1.36,5.1
+LME_057,temporal-reasoning,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7930,0.02,1.92,1.87,5.4
+LME_057,temporal-reasoning,S1 Truncation (16k),truncation,1,1,1,correct,15811,0.03,3.17,3.13,6.9
+LME_057,temporal-reasoning,S3 Turn (k=3),single_turn,0,1,1,ignored_by_reader,653,0.38,0.86,1.3,4.9
+LME_057,temporal-reasoning,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1079,0.39,1.09,1.44,5.0
+LME_057,temporal-reasoning,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2062,0.41,1.34,1.69,5.2
+LME_057,temporal-reasoning,S3 Session (k=3),whole_session,1,1,1,correct,4627,0.29,1.54,1.84,5.4
+LME_057,temporal-reasoning,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7657,0.3,1.9,2.12,5.6
+LME_057,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2870,0.34,1.28,1.58,5.2
+LME_057,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114765,0.0,29.4,29.4,14.6
+LME_058,temporal-reasoning,S1 Truncation (4k),truncation,1,1,1,correct,4130,0.01,1.29,1.36,5.1
+LME_058,temporal-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7956,0.02,1.8,1.87,5.4
+LME_058,temporal-reasoning,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15801,0.03,3.15,3.13,6.9
+LME_058,temporal-reasoning,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,642,0.38,0.91,1.3,4.9
+LME_058,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1007,0.39,1.03,1.44,5.0
+LME_058,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2116,0.41,1.34,1.69,5.2
+LME_058,temporal-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4689,0.29,1.62,1.84,5.4
+LME_058,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7625,0.3,1.76,2.12,5.6
+LME_058,temporal-reasoning,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2835,0.34,1.26,1.58,5.2
+LME_058,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114795,0.0,29.4,29.4,14.6
+LME_059,temporal-reasoning,S1 Truncation (4k),truncation,1,1,1,correct,4122,0.01,1.28,1.36,5.1
+LME_059,temporal-reasoning,S1 Truncation (8k),truncation,1,1,1,correct,7914,0.02,1.88,1.87,5.4
+LME_059,temporal-reasoning,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15784,0.03,3.14,3.13,6.9
+LME_059,temporal-reasoning,S3 Turn (k=3),single_turn,0,1,1,ignored_by_reader,647,0.38,0.84,1.3,4.9
+LME_059,temporal-reasoning,S3 Turn (k=5),single_turn,1,1,1,correct,1004,0.39,0.99,1.44,5.0
+LME_059,temporal-reasoning,S3 Turn (k=10),single_turn,1,1,1,correct,2082,0.41,1.33,1.69,5.2
+LME_059,temporal-reasoning,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4669,0.29,1.58,1.84,5.4
+LME_059,temporal-reasoning,S3 Session (k=5),whole_session,1,1,1,correct,7622,0.3,1.76,2.12,5.6
+LME_059,temporal-reasoning,S3 Segment (k=5),topic_segment,1,1,1,correct,2861,0.34,1.3,1.58,5.2
+LME_059,temporal-reasoning,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114839,0.0,29.33,29.4,14.6
+LME_060,knowledge-update,S1 Truncation (4k),truncation,1,1,1,correct,4117,0.01,1.27,1.36,5.1
+LME_060,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7926,0.02,1.91,1.87,5.4
+LME_060,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15799,0.03,3.08,3.13,6.9
+LME_060,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,634,0.38,0.86,1.3,4.9
+LME_060,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1075,0.39,1.02,1.44,5.0
+LME_060,knowledge-update,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2066,0.41,1.27,1.69,5.2
+LME_060,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4617,0.29,1.53,1.84,5.4
+LME_060,knowledge-update,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7659,0.3,1.76,2.12,5.6
+LME_060,knowledge-update,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2844,0.34,1.23,1.58,5.2
+LME_060,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114781,0.0,29.4,29.4,14.6
+LME_061,knowledge-update,S1 Truncation (4k),truncation,1,1,1,correct,4068,0.01,1.35,1.36,5.1
+LME_061,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7956,0.02,1.84,1.87,5.4
+LME_061,knowledge-update,S1 Truncation (16k),truncation,1,1,1,correct,15832,0.03,3.05,3.13,6.9
+LME_061,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,618,0.38,0.9,1.3,4.9
+LME_061,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1064,0.39,1.01,1.44,5.0
+LME_061,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2115,0.41,1.32,1.69,5.2
+LME_061,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4683,0.29,1.51,1.84,5.4
+LME_061,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7648,0.3,1.87,2.12,5.6
+LME_061,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2869,0.34,1.21,1.58,5.2
+LME_061,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114826,0.0,29.41,29.4,14.6
+LME_062,knowledge-update,S1 Truncation (4k),truncation,1,1,1,correct,4072,0.01,1.42,1.36,5.1
+LME_062,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7910,0.02,1.86,1.87,5.4
+LME_062,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15799,0.03,3.11,3.13,6.9
+LME_062,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,618,0.38,0.94,1.3,4.9
+LME_062,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1035,0.39,1.04,1.44,5.0
+LME_062,knowledge-update,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2076,0.41,1.3,1.69,5.2
+LME_062,knowledge-update,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4636,0.29,1.59,1.84,5.4
+LME_062,knowledge-update,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7618,0.3,1.83,2.12,5.6
+LME_062,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2832,0.34,1.21,1.58,5.2
+LME_062,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114836,0.0,29.44,29.4,14.6
+LME_063,knowledge-update,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4066,0.01,1.34,1.36,5.1
+LME_063,knowledge-update,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7944,0.02,1.83,1.87,5.4
+LME_063,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15792,0.03,3.05,3.13,6.9
+LME_063,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,593,0.38,0.87,1.3,4.9
+LME_063,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1018,0.39,1.03,1.44,5.0
+LME_063,knowledge-update,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2065,0.41,1.26,1.69,5.2
+LME_063,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4669,0.29,1.53,1.84,5.4
+LME_063,knowledge-update,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7593,0.3,1.82,2.12,5.6
+LME_063,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2836,0.34,1.3,1.58,5.2
+LME_063,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114762,0.0,29.36,29.4,14.6
+LME_064,knowledge-update,S1 Truncation (4k),truncation,1,1,1,correct,4059,0.01,1.35,1.36,5.1
+LME_064,knowledge-update,S1 Truncation (8k),truncation,1,1,1,correct,7930,0.02,1.9,1.87,5.4
+LME_064,knowledge-update,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15783,0.03,3.09,3.13,6.9
+LME_064,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,657,0.38,0.97,1.3,4.9
+LME_064,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1022,0.39,1.0,1.44,5.0
+LME_064,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2085,0.41,1.23,1.69,5.2
+LME_064,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4672,0.29,1.53,1.84,5.4
+LME_064,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7612,0.3,1.79,2.12,5.6
+LME_064,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2874,0.34,1.26,1.58,5.2
+LME_064,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114815,0.0,29.32,29.4,14.6
+LME_065,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4077,0.01,1.4,1.36,5.1
+LME_065,knowledge-update,S1 Truncation (8k),truncation,0,1,1,ignored_by_reader,7929,0.02,1.9,1.87,5.4
+LME_065,knowledge-update,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15761,0.03,3.03,3.13,6.9
+LME_065,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,657,0.38,0.86,1.3,4.9
+LME_065,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1028,0.39,1.06,1.44,5.0
+LME_065,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2086,0.41,1.32,1.69,5.2
+LME_065,knowledge-update,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4675,0.29,1.55,1.84,5.4
+LME_065,knowledge-update,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7658,0.3,1.88,2.12,5.6
+LME_065,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2843,0.34,1.3,1.58,5.2
+LME_065,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114771,0.0,29.34,29.4,14.6
+LME_066,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4129,0.01,1.3,1.36,5.1
+LME_066,knowledge-update,S1 Truncation (8k),truncation,1,1,1,correct,7913,0.02,1.91,1.87,5.4
+LME_066,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15782,0.03,3.09,3.13,6.9
+LME_066,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,585,0.38,0.85,1.3,4.9
+LME_066,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1032,0.39,1.0,1.44,5.0
+LME_066,knowledge-update,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2067,0.41,1.3,1.69,5.2
+LME_066,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4667,0.29,1.58,1.84,5.4
+LME_066,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7634,0.3,1.79,2.12,5.6
+LME_066,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2823,0.34,1.19,1.58,5.2
+LME_066,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114789,0.0,29.36,29.4,14.6
+LME_067,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4117,0.01,1.29,1.36,5.1
+LME_067,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7949,0.02,1.9,1.87,5.4
+LME_067,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15777,0.03,3.06,3.13,6.9
+LME_067,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,602,0.38,0.9,1.3,4.9
+LME_067,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1066,0.39,0.99,1.44,5.0
+LME_067,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2047,0.41,1.35,1.69,5.2
+LME_067,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4611,0.29,1.53,1.84,5.4
+LME_067,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7612,0.3,1.83,2.12,5.6
+LME_067,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2850,0.34,1.18,1.58,5.2
+LME_067,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114764,0.0,29.36,29.4,14.6
+LME_068,knowledge-update,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4135,0.01,1.38,1.36,5.1
+LME_068,knowledge-update,S1 Truncation (8k),truncation,1,1,1,correct,7973,0.02,1.91,1.87,5.4
+LME_068,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15782,0.03,3.03,3.13,6.9
+LME_068,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,606,0.38,0.94,1.3,4.9
+LME_068,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1006,0.39,1.06,1.44,5.0
+LME_068,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2043,0.41,1.3,1.69,5.2
+LME_068,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4689,0.29,1.49,1.84,5.4
+LME_068,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7593,0.3,1.79,2.12,5.6
+LME_068,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2865,0.34,1.32,1.58,5.2
+LME_068,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114777,0.0,29.45,29.4,14.6
+LME_069,knowledge-update,S1 Truncation (4k),truncation,1,1,1,correct,4102,0.01,1.39,1.36,5.1
+LME_069,knowledge-update,S1 Truncation (8k),truncation,1,1,1,correct,7942,0.02,1.81,1.87,5.4
+LME_069,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15825,0.03,3.11,3.13,6.9
+LME_069,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,618,0.38,0.94,1.3,4.9
+LME_069,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1042,0.39,1.06,1.44,5.0
+LME_069,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2047,0.41,1.27,1.69,5.2
+LME_069,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4627,0.29,1.49,1.84,5.4
+LME_069,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7580,0.3,1.76,2.12,5.6
+LME_069,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2855,0.34,1.26,1.58,5.2
+LME_069,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114817,0.0,29.43,29.4,14.6
+LME_070,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4126,0.01,1.35,1.36,5.1
+LME_070,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7924,0.02,1.85,1.87,5.4
+LME_070,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15795,0.03,3.16,3.13,6.9
+LME_070,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,605,0.38,0.9,1.3,4.9
+LME_070,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1020,0.39,1.0,1.44,5.0
+LME_070,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2105,0.41,1.23,1.69,5.2
+LME_070,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4636,0.29,1.5,1.84,5.4
+LME_070,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7597,0.3,1.86,2.12,5.6
+LME_070,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2814,0.34,1.2,1.58,5.2
+LME_070,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114829,0.0,29.42,29.4,14.6
+LME_071,knowledge-update,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4118,0.01,1.36,1.36,5.1
+LME_071,knowledge-update,S1 Truncation (8k),truncation,1,1,1,correct,7943,0.02,1.83,1.87,5.4
+LME_071,knowledge-update,S1 Truncation (16k),truncation,1,1,1,correct,15820,0.03,3.16,3.13,6.9
+LME_071,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,588,0.38,0.94,1.3,4.9
+LME_071,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1066,0.39,1.06,1.44,5.0
+LME_071,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2114,0.41,1.32,1.69,5.2
+LME_071,knowledge-update,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4618,0.29,1.62,1.84,5.4
+LME_071,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7597,0.3,1.77,2.12,5.6
+LME_071,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2810,0.34,1.21,1.58,5.2
+LME_071,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114809,0.0,29.45,29.4,14.6
+LME_072,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4084,0.01,1.34,1.36,5.1
+LME_072,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7906,0.02,1.82,1.87,5.4
+LME_072,knowledge-update,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15771,0.03,3.02,3.13,6.9
+LME_072,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,634,0.38,0.94,1.3,4.9
+LME_072,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1004,0.39,1.1,1.44,5.0
+LME_072,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2089,0.41,1.26,1.69,5.2
+LME_072,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4621,0.29,1.48,1.84,5.4
+LME_072,knowledge-update,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7587,0.3,1.86,2.12,5.6
+LME_072,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2863,0.34,1.32,1.58,5.2
+LME_072,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114831,0.0,29.41,29.4,14.6
+LME_073,knowledge-update,S1 Truncation (4k),truncation,1,1,1,correct,4068,0.01,1.39,1.36,5.1
+LME_073,knowledge-update,S1 Truncation (8k),truncation,0,0,1,lost_by_memory,7974,0.02,1.87,1.87,5.4
+LME_073,knowledge-update,S1 Truncation (16k),truncation,0,0,0,lost_by_memory,15812,0.03,3.03,3.13,6.9
+LME_073,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,596,0.38,0.93,1.3,4.9
+LME_073,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1018,0.39,1.01,1.44,5.0
+LME_073,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2071,0.41,1.22,1.69,5.2
+LME_073,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4633,0.29,1.54,1.84,5.4
+LME_073,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7586,0.3,1.78,2.12,5.6
+LME_073,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2883,0.34,1.17,1.58,5.2
+LME_073,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114800,0.0,29.42,29.4,14.6
+LME_074,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4070,0.01,1.32,1.36,5.1
+LME_074,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7965,0.02,1.78,1.87,5.4
+LME_074,knowledge-update,S1 Truncation (16k),truncation,1,1,1,correct,15838,0.03,3.13,3.13,6.9
+LME_074,knowledge-update,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,625,0.38,0.94,1.3,4.9
+LME_074,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1005,0.39,1.06,1.44,5.0
+LME_074,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2116,0.41,1.29,1.69,5.2
+LME_074,knowledge-update,S3 Session (k=3),whole_session,1,1,1,correct,4618,0.29,1.54,1.84,5.4
+LME_074,knowledge-update,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7609,0.3,1.81,2.12,5.6
+LME_074,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2847,0.34,1.27,1.58,5.2
+LME_074,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114796,0.0,29.45,29.4,14.6
+LME_075,knowledge-update,S1 Truncation (4k),truncation,0,1,1,ignored_by_reader,4124,0.01,1.39,1.36,5.1
+LME_075,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7957,0.02,1.85,1.87,5.4
+LME_075,knowledge-update,S1 Truncation (16k),truncation,1,1,1,correct,15771,0.03,3.12,3.13,6.9
+LME_075,knowledge-update,S3 Turn (k=3),single_turn,0,0,0,lost_by_memory,637,0.38,0.91,1.3,4.9
+LME_075,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1050,0.39,1.03,1.44,5.0
+LME_075,knowledge-update,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2108,0.41,1.23,1.69,5.2
+LME_075,knowledge-update,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4677,0.29,1.52,1.84,5.4
+LME_075,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7639,0.3,1.88,2.12,5.6
+LME_075,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2815,0.34,1.29,1.58,5.2
+LME_075,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114811,0.0,29.43,29.4,14.6
+LME_076,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4098,0.01,1.3,1.36,5.1
+LME_076,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7941,0.02,1.93,1.87,5.4
+LME_076,knowledge-update,S1 Truncation (16k),truncation,1,1,1,correct,15834,0.03,3.14,3.13,6.9
+LME_076,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,648,0.38,0.92,1.3,4.9
+LME_076,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1025,0.39,0.97,1.44,5.0
+LME_076,knowledge-update,S3 Turn (k=10),single_turn,1,1,1,correct,2081,0.41,1.27,1.69,5.2
+LME_076,knowledge-update,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4677,0.29,1.59,1.84,5.4
+LME_076,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7592,0.3,1.81,2.12,5.6
+LME_076,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2850,0.34,1.24,1.58,5.2
+LME_076,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114780,0.0,29.38,29.4,14.6
+LME_077,knowledge-update,S1 Truncation (4k),truncation,1,1,1,correct,4124,0.01,1.31,1.36,5.1
+LME_077,knowledge-update,S1 Truncation (8k),truncation,1,1,1,correct,7915,0.02,1.82,1.87,5.4
+LME_077,knowledge-update,S1 Truncation (16k),truncation,1,1,1,correct,15782,0.03,3.09,3.13,6.9
+LME_077,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,591,0.38,0.97,1.3,4.9
+LME_077,knowledge-update,S3 Turn (k=5),single_turn,1,1,1,correct,1053,0.39,0.98,1.44,5.0
+LME_077,knowledge-update,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2119,0.41,1.26,1.69,5.2
+LME_077,knowledge-update,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4636,0.29,1.59,1.84,5.4
+LME_077,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7653,0.3,1.85,2.12,5.6
+LME_077,knowledge-update,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2850,0.34,1.29,1.58,5.2
+LME_077,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114766,0.0,29.36,29.4,14.6
+LME_078,knowledge-update,S1 Truncation (4k),truncation,0,0,0,lost_by_memory,4077,0.01,1.27,1.36,5.1
+LME_078,knowledge-update,S1 Truncation (8k),truncation,0,0,0,lost_by_memory,7979,0.02,1.83,1.87,5.4
+LME_078,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15775,0.03,3.05,3.13,6.9
+LME_078,knowledge-update,S3 Turn (k=3),single_turn,1,1,1,correct,603,0.38,0.88,1.3,4.9
+LME_078,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1073,0.39,1.08,1.44,5.0
+LME_078,knowledge-update,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2087,0.41,1.35,1.69,5.2
+LME_078,knowledge-update,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4623,0.29,1.5,1.84,5.4
+LME_078,knowledge-update,S3 Session (k=5),whole_session,1,1,1,correct,7598,0.3,1.88,2.12,5.6
+LME_078,knowledge-update,S3 Segment (k=5),topic_segment,1,1,1,correct,2879,0.34,1.22,1.58,5.2
+LME_078,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114823,0.0,29.38,29.4,14.6
+LME_079,knowledge-update,S1 Truncation (4k),truncation,0,0,1,lost_by_memory,4083,0.01,1.43,1.36,5.1
+LME_079,knowledge-update,S1 Truncation (8k),truncation,1,1,1,correct,7958,0.02,1.9,1.87,5.4
+LME_079,knowledge-update,S1 Truncation (16k),truncation,0,0,1,lost_by_memory,15809,0.03,3.13,3.13,6.9
+LME_079,knowledge-update,S3 Turn (k=3),single_turn,0,0,1,lost_by_memory,615,0.38,0.87,1.3,4.9
+LME_079,knowledge-update,S3 Turn (k=5),single_turn,0,0,1,lost_by_memory,1013,0.39,1.11,1.44,5.0
+LME_079,knowledge-update,S3 Turn (k=10),single_turn,0,0,1,lost_by_memory,2093,0.41,1.26,1.69,5.2
+LME_079,knowledge-update,S3 Session (k=3),whole_session,0,0,1,lost_by_memory,4664,0.29,1.57,1.84,5.4
+LME_079,knowledge-update,S3 Session (k=5),whole_session,0,0,1,lost_by_memory,7586,0.3,1.87,2.12,5.6
+LME_079,knowledge-update,S3 Segment (k=5),topic_segment,0,0,1,lost_by_memory,2828,0.34,1.27,1.58,5.2
+LME_079,knowledge-update,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114794,0.0,29.4,29.4,14.6
+LME_080,abstention,S1 Truncation (4k),truncation,1,0,1,correct,4100,0.01,1.32,1.36,5.1
+LME_080,abstention,S1 Truncation (8k),truncation,1,1,1,correct,7914,0.02,1.84,1.87,5.4
+LME_080,abstention,S1 Truncation (16k),truncation,0,1,1,ignored_by_reader,15804,0.03,3.05,3.13,6.9
+LME_080,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,647,0.38,0.99,1.3,4.9
+LME_080,abstention,S3 Turn (k=5),single_turn,1,0,1,correct,1051,0.39,1.06,1.44,5.0
+LME_080,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2045,0.41,1.35,1.69,5.2
+LME_080,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4616,0.29,1.63,1.84,5.4
+LME_080,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7592,0.3,1.87,2.12,5.6
+LME_080,abstention,S3 Segment (k=5),topic_segment,1,0,1,correct,2821,0.34,1.21,1.58,5.2
+LME_080,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114835,0.0,29.32,29.4,14.6
+LME_081,abstention,S1 Truncation (4k),truncation,1,1,1,correct,4065,0.01,1.3,1.36,5.1
+LME_081,abstention,S1 Truncation (8k),truncation,1,0,0,correct,7961,0.02,1.92,1.87,5.4
+LME_081,abstention,S1 Truncation (16k),truncation,1,1,1,correct,15798,0.03,3.12,3.13,6.9
+LME_081,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,649,0.38,0.97,1.3,4.9
+LME_081,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1037,0.39,1.13,1.44,5.0
+LME_081,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2107,0.41,1.27,1.69,5.2
+LME_081,abstention,S3 Session (k=3),whole_session,1,0,1,correct,4626,0.29,1.6,1.84,5.4
+LME_081,abstention,S3 Session (k=5),whole_session,0,0,1,ignored_by_reader,7632,0.3,1.87,2.12,5.6
+LME_081,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2827,0.34,1.22,1.58,5.2
+LME_081,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114839,0.0,29.41,29.4,14.6
+LME_082,abstention,S1 Truncation (4k),truncation,1,0,1,correct,4130,0.01,1.35,1.36,5.1
+LME_082,abstention,S1 Truncation (8k),truncation,1,0,0,correct,7971,0.02,1.8,1.87,5.4
+LME_082,abstention,S1 Truncation (16k),truncation,1,1,1,correct,15836,0.03,3.09,3.13,6.9
+LME_082,abstention,S3 Turn (k=3),single_turn,0,1,1,ignored_by_reader,626,0.38,0.92,1.3,4.9
+LME_082,abstention,S3 Turn (k=5),single_turn,1,0,1,correct,1039,0.39,1.05,1.44,5.0
+LME_082,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2062,0.41,1.23,1.69,5.2
+LME_082,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4663,0.29,1.56,1.84,5.4
+LME_082,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7588,0.3,1.85,2.12,5.6
+LME_082,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2871,0.34,1.3,1.58,5.2
+LME_082,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114836,0.0,29.36,29.4,14.6
+LME_083,abstention,S1 Truncation (4k),truncation,0,0,1,ignored_by_reader,4077,0.01,1.33,1.36,5.1
+LME_083,abstention,S1 Truncation (8k),truncation,1,1,1,correct,7900,0.02,1.77,1.87,5.4
+LME_083,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15812,0.03,3.09,3.13,6.9
+LME_083,abstention,S3 Turn (k=3),single_turn,1,0,1,correct,651,0.38,0.9,1.3,4.9
+LME_083,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1008,0.39,1.08,1.44,5.0
+LME_083,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2103,0.41,1.24,1.69,5.2
+LME_083,abstention,S3 Session (k=3),whole_session,1,0,1,correct,4650,0.29,1.61,1.84,5.4
+LME_083,abstention,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7621,0.3,1.79,2.12,5.6
+LME_083,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2837,0.34,1.25,1.58,5.2
+LME_083,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114766,0.0,29.41,29.4,14.6
+LME_084,abstention,S1 Truncation (4k),truncation,1,0,1,correct,4057,0.01,1.39,1.36,5.1
+LME_084,abstention,S1 Truncation (8k),truncation,1,0,1,correct,7956,0.02,1.9,1.87,5.4
+LME_084,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15833,0.03,3.07,3.13,6.9
+LME_084,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,637,0.38,0.86,1.3,4.9
+LME_084,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1072,0.39,1.06,1.44,5.0
+LME_084,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2076,0.41,1.32,1.69,5.2
+LME_084,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4675,0.29,1.62,1.84,5.4
+LME_084,abstention,S3 Session (k=5),whole_session,1,0,1,correct,7613,0.3,1.79,2.12,5.6
+LME_084,abstention,S3 Segment (k=5),topic_segment,1,0,1,correct,2841,0.34,1.17,1.58,5.2
+LME_084,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114814,0.0,29.46,29.4,14.6
+LME_085,abstention,S1 Truncation (4k),truncation,1,1,1,correct,4087,0.01,1.3,1.36,5.1
+LME_085,abstention,S1 Truncation (8k),truncation,1,0,1,correct,7919,0.02,1.92,1.87,5.4
+LME_085,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15834,0.03,3.05,3.13,6.9
+LME_085,abstention,S3 Turn (k=3),single_turn,0,1,1,ignored_by_reader,649,0.38,0.98,1.3,4.9
+LME_085,abstention,S3 Turn (k=5),single_turn,0,0,1,ignored_by_reader,1052,0.39,1.11,1.44,5.0
+LME_085,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2088,0.41,1.3,1.69,5.2
+LME_085,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4632,0.29,1.59,1.84,5.4
+LME_085,abstention,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7650,0.3,1.79,2.12,5.6
+LME_085,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2810,0.34,1.28,1.58,5.2
+LME_085,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114791,0.0,29.39,29.4,14.6
+LME_086,abstention,S1 Truncation (4k),truncation,1,0,1,correct,4134,0.01,1.33,1.36,5.1
+LME_086,abstention,S1 Truncation (8k),truncation,1,1,1,correct,7961,0.02,1.93,1.87,5.4
+LME_086,abstention,S1 Truncation (16k),truncation,1,1,1,correct,15829,0.03,3.11,3.13,6.9
+LME_086,abstention,S3 Turn (k=3),single_turn,1,0,1,correct,612,0.38,0.88,1.3,4.9
+LME_086,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1079,0.39,1.07,1.44,5.0
+LME_086,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2087,0.41,1.34,1.69,5.2
+LME_086,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4621,0.29,1.6,1.84,5.4
+LME_086,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7627,0.3,1.83,2.12,5.6
+LME_086,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2863,0.34,1.24,1.58,5.2
+LME_086,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114819,0.0,29.35,29.4,14.6
+LME_087,abstention,S1 Truncation (4k),truncation,1,0,0,correct,4119,0.01,1.3,1.36,5.1
+LME_087,abstention,S1 Truncation (8k),truncation,1,0,1,correct,7908,0.02,1.78,1.87,5.4
+LME_087,abstention,S1 Truncation (16k),truncation,1,0,0,correct,15819,0.03,3.05,3.13,6.9
+LME_087,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,651,0.38,0.88,1.3,4.9
+LME_087,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1075,0.39,1.11,1.44,5.0
+LME_087,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2047,0.41,1.2,1.69,5.2
+LME_087,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4661,0.29,1.5,1.84,5.4
+LME_087,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7583,0.3,1.86,2.12,5.6
+LME_087,abstention,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2884,0.34,1.23,1.58,5.2
+LME_087,abstention,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114790,0.0,29.35,29.4,14.6
+LME_088,abstention,S1 Truncation (4k),truncation,1,0,1,correct,4102,0.01,1.41,1.36,5.1
+LME_088,abstention,S1 Truncation (8k),truncation,1,1,1,correct,7950,0.02,1.8,1.87,5.4
+LME_088,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15768,0.03,3.13,3.13,6.9
+LME_088,abstention,S3 Turn (k=3),single_turn,1,0,0,correct,585,0.38,0.97,1.3,4.9
+LME_088,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1021,0.39,1.11,1.44,5.0
+LME_088,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2040,0.41,1.3,1.69,5.2
+LME_088,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4630,0.29,1.59,1.84,5.4
+LME_088,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7604,0.3,1.89,2.12,5.6
+LME_088,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2829,0.34,1.23,1.58,5.2
+LME_088,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114821,0.0,29.44,29.4,14.6
+LME_089,abstention,S1 Truncation (4k),truncation,1,1,1,correct,4063,0.01,1.28,1.36,5.1
+LME_089,abstention,S1 Truncation (8k),truncation,1,0,0,correct,7963,0.02,1.92,1.87,5.4
+LME_089,abstention,S1 Truncation (16k),truncation,1,1,1,correct,15817,0.03,3.15,3.13,6.9
+LME_089,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,609,0.38,0.9,1.3,4.9
+LME_089,abstention,S3 Turn (k=5),single_turn,1,0,1,correct,1018,0.39,0.97,1.44,5.0
+LME_089,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2077,0.41,1.23,1.69,5.2
+LME_089,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4684,0.29,1.62,1.84,5.4
+LME_089,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7614,0.3,1.86,2.12,5.6
+LME_089,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2818,0.34,1.25,1.58,5.2
+LME_089,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114821,0.0,29.42,29.4,14.6
+LME_090,abstention,S1 Truncation (4k),truncation,1,1,1,correct,4065,0.01,1.31,1.36,5.1
+LME_090,abstention,S1 Truncation (8k),truncation,1,0,0,correct,7965,0.02,1.92,1.87,5.4
+LME_090,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15769,0.03,3.17,3.13,6.9
+LME_090,abstention,S3 Turn (k=3),single_turn,0,1,1,ignored_by_reader,612,0.38,0.89,1.3,4.9
+LME_090,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1028,0.39,1.03,1.44,5.0
+LME_090,abstention,S3 Turn (k=10),single_turn,1,0,1,correct,2063,0.41,1.2,1.69,5.2
+LME_090,abstention,S3 Session (k=3),whole_session,1,0,1,correct,4628,0.29,1.52,1.84,5.4
+LME_090,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7659,0.3,1.86,2.12,5.6
+LME_090,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2880,0.34,1.32,1.58,5.2
+LME_090,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114801,0.0,29.34,29.4,14.6
+LME_091,abstention,S1 Truncation (4k),truncation,1,0,1,correct,4100,0.01,1.32,1.36,5.1
+LME_091,abstention,S1 Truncation (8k),truncation,0,1,1,ignored_by_reader,7916,0.02,1.85,1.87,5.4
+LME_091,abstention,S1 Truncation (16k),truncation,1,1,1,correct,15787,0.03,3.1,3.13,6.9
+LME_091,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,603,0.38,0.89,1.3,4.9
+LME_091,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1012,0.39,1.1,1.44,5.0
+LME_091,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2107,0.41,1.29,1.69,5.2
+LME_091,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4644,0.29,1.57,1.84,5.4
+LME_091,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7627,0.3,1.88,2.12,5.6
+LME_091,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2812,0.34,1.22,1.58,5.2
+LME_091,abstention,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114817,0.0,29.39,29.4,14.6
+LME_092,abstention,S1 Truncation (4k),truncation,1,0,0,correct,4117,0.01,1.33,1.36,5.1
+LME_092,abstention,S1 Truncation (8k),truncation,1,0,1,correct,7972,0.02,1.8,1.87,5.4
+LME_092,abstention,S1 Truncation (16k),truncation,0,0,1,ignored_by_reader,15794,0.03,3.17,3.13,6.9
+LME_092,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,631,0.38,0.95,1.3,4.9
+LME_092,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1067,0.39,1.1,1.44,5.0
+LME_092,abstention,S3 Turn (k=10),single_turn,1,0,1,correct,2106,0.41,1.21,1.69,5.2
+LME_092,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4627,0.29,1.53,1.84,5.4
+LME_092,abstention,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7603,0.3,1.83,2.12,5.6
+LME_092,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2816,0.34,1.24,1.58,5.2
+LME_092,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114801,0.0,29.34,29.4,14.6
+LME_093,abstention,S1 Truncation (4k),truncation,1,0,0,correct,4083,0.01,1.4,1.36,5.1
+LME_093,abstention,S1 Truncation (8k),truncation,1,0,1,correct,7919,0.02,1.8,1.87,5.4
+LME_093,abstention,S1 Truncation (16k),truncation,1,0,0,correct,15780,0.03,3.17,3.13,6.9
+LME_093,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,609,0.38,0.89,1.3,4.9
+LME_093,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1049,0.39,0.97,1.44,5.0
+LME_093,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2079,0.41,1.2,1.69,5.2
+LME_093,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4646,0.29,1.56,1.84,5.4
+LME_093,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7652,0.3,1.82,2.12,5.6
+LME_093,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2862,0.34,1.3,1.58,5.2
+LME_093,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114793,0.0,29.48,29.4,14.6
+LME_094,abstention,S1 Truncation (4k),truncation,1,0,1,correct,4071,0.01,1.32,1.36,5.1
+LME_094,abstention,S1 Truncation (8k),truncation,1,0,0,correct,7969,0.02,1.82,1.87,5.4
+LME_094,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15778,0.03,3.17,3.13,6.9
+LME_094,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,609,0.38,0.89,1.3,4.9
+LME_094,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1065,0.39,0.99,1.44,5.0
+LME_094,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2099,0.41,1.28,1.69,5.2
+LME_094,abstention,S3 Session (k=3),whole_session,0,1,1,ignored_by_reader,4629,0.29,1.53,1.84,5.4
+LME_094,abstention,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7653,0.3,1.82,2.12,5.6
+LME_094,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2859,0.34,1.3,1.58,5.2
+LME_094,abstention,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114829,0.0,29.33,29.4,14.6
+LME_095,abstention,S1 Truncation (4k),truncation,1,1,1,correct,4122,0.01,1.29,1.36,5.1
+LME_095,abstention,S1 Truncation (8k),truncation,1,1,1,correct,7927,0.02,1.91,1.87,5.4
+LME_095,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15800,0.03,3.04,3.13,6.9
+LME_095,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,639,0.38,0.95,1.3,4.9
+LME_095,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1015,0.39,1.08,1.44,5.0
+LME_095,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2065,0.41,1.29,1.69,5.2
+LME_095,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4669,0.29,1.53,1.84,5.4
+LME_095,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7596,0.3,1.82,2.12,5.6
+LME_095,abstention,S3 Segment (k=5),topic_segment,0,1,1,ignored_by_reader,2820,0.34,1.29,1.58,5.2
+LME_095,abstention,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114771,0.0,29.36,29.4,14.6
+LME_096,abstention,S1 Truncation (4k),truncation,1,1,1,correct,4116,0.01,1.42,1.36,5.1
+LME_096,abstention,S1 Truncation (8k),truncation,0,1,1,ignored_by_reader,7932,0.02,1.87,1.87,5.4
+LME_096,abstention,S1 Truncation (16k),truncation,1,1,1,correct,15828,0.03,3.14,3.13,6.9
+LME_096,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,600,0.38,0.95,1.3,4.9
+LME_096,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1079,0.39,1.1,1.44,5.0
+LME_096,abstention,S3 Turn (k=10),single_turn,1,0,1,correct,2112,0.41,1.24,1.69,5.2
+LME_096,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4611,0.29,1.55,1.84,5.4
+LME_096,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7627,0.3,1.87,2.12,5.6
+LME_096,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2823,0.34,1.17,1.58,5.2
+LME_096,abstention,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114768,0.0,29.47,29.4,14.6
+LME_097,abstention,S1 Truncation (4k),truncation,1,1,1,correct,4119,0.01,1.42,1.36,5.1
+LME_097,abstention,S1 Truncation (8k),truncation,1,1,1,correct,7939,0.02,1.89,1.87,5.4
+LME_097,abstention,S1 Truncation (16k),truncation,0,0,1,ignored_by_reader,15806,0.03,3.16,3.13,6.9
+LME_097,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,608,0.38,0.86,1.3,4.9
+LME_097,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1075,0.39,1.12,1.44,5.0
+LME_097,abstention,S3 Turn (k=10),single_turn,0,1,1,ignored_by_reader,2106,0.41,1.29,1.69,5.2
+LME_097,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4654,0.29,1.52,1.84,5.4
+LME_097,abstention,S3 Session (k=5),whole_session,0,1,1,ignored_by_reader,7581,0.3,1.8,2.12,5.6
+LME_097,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2862,0.34,1.25,1.58,5.2
+LME_097,abstention,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114809,0.0,29.43,29.4,14.6
+LME_098,abstention,S1 Truncation (4k),truncation,1,0,0,correct,4082,0.01,1.28,1.36,5.1
+LME_098,abstention,S1 Truncation (8k),truncation,1,0,0,correct,7928,0.02,1.88,1.87,5.4
+LME_098,abstention,S1 Truncation (16k),truncation,1,1,1,correct,15837,0.03,3.08,3.13,6.9
+LME_098,abstention,S3 Turn (k=3),single_turn,1,0,0,correct,630,0.38,0.9,1.3,4.9
+LME_098,abstention,S3 Turn (k=5),single_turn,1,0,1,correct,1062,0.39,1.07,1.44,5.0
+LME_098,abstention,S3 Turn (k=10),single_turn,1,0,1,correct,2053,0.41,1.32,1.69,5.2
+LME_098,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4655,0.29,1.59,1.84,5.4
+LME_098,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7600,0.3,1.75,2.12,5.6
+LME_098,abstention,S3 Segment (k=5),topic_segment,0,0,1,ignored_by_reader,2882,0.34,1.19,1.58,5.2
+LME_098,abstention,"S0 Full Context (115k, YaRN)",full_context,1,1,1,correct,114837,0.0,29.35,29.4,14.6
+LME_099,abstention,S1 Truncation (4k),truncation,1,0,0,correct,4107,0.01,1.33,1.36,5.1
+LME_099,abstention,S1 Truncation (8k),truncation,1,0,1,correct,7926,0.02,1.9,1.87,5.4
+LME_099,abstention,S1 Truncation (16k),truncation,1,0,1,correct,15801,0.03,3.14,3.13,6.9
+LME_099,abstention,S3 Turn (k=3),single_turn,1,1,1,correct,618,0.38,0.99,1.3,4.9
+LME_099,abstention,S3 Turn (k=5),single_turn,1,1,1,correct,1014,0.39,1.08,1.44,5.0
+LME_099,abstention,S3 Turn (k=10),single_turn,1,1,1,correct,2076,0.41,1.36,1.69,5.2
+LME_099,abstention,S3 Session (k=3),whole_session,1,1,1,correct,4648,0.29,1.61,1.84,5.4
+LME_099,abstention,S3 Session (k=5),whole_session,1,1,1,correct,7594,0.3,1.88,2.12,5.6
+LME_099,abstention,S3 Segment (k=5),topic_segment,1,1,1,correct,2821,0.34,1.25,1.58,5.2
+LME_099,abstention,"S0 Full Context (115k, YaRN)",full_context,0,1,1,ignored_by_reader,114783,0.0,29.39,29.4,14.6

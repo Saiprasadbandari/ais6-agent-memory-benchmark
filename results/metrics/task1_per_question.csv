@@ -1,0 +1,401 @@
+question_id,question_type,variant,correct,evidence_survived,error_type,history_tokens,prompt_tokens,build_tokens,total_tokens,compression_ratio,seconds_per_question,peak_gpu_gb
+LME_000,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,117164,8002,0,8002,14.64,1.87,5.4
+LME_000,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,117164,7021,119385,126406,16.69,20.16,6.8
+LME_000,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,117164,7194,132924,140118,16.29,25.71,6.2
+LME_000,single-session-detail,S2(c) Summary + Recent,1,1,correct,117164,7791,95838,103629,15.04,18.67,6.3
+LME_001,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,114144,7873,0,7873,14.5,2.01,5.4
+LME_001,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,114144,7017,118305,125322,16.27,20.02,6.8
+LME_001,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,114144,7040,134108,141148,16.21,25.89,6.2
+LME_001,single-session-detail,S2(c) Summary + Recent,1,1,correct,114144,7931,96613,104544,14.39,18.74,6.3
+LME_002,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,110820,8028,0,8028,13.8,1.99,5.4
+LME_002,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,110820,6863,117113,123976,16.15,20.02,6.8
+LME_002,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,110820,7065,135289,142354,15.69,25.84,6.2
+LME_002,single-session-detail,S2(c) Summary + Recent,1,1,correct,110820,7726,95744,103470,14.34,18.7,6.3
+LME_003,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,109318,8028,0,8028,13.62,1.73,5.4
+LME_003,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,109318,6763,119122,125885,16.16,20.12,6.8
+LME_003,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,109318,6941,132830,139771,15.75,25.76,6.2
+LME_003,single-session-detail,S2(c) Summary + Recent,1,1,correct,109318,7730,95641,103371,14.14,18.54,6.3
+LME_004,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,118044,7995,0,7995,14.76,1.97,5.4
+LME_004,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,118044,6995,119314,126309,16.88,20.14,6.8
+LME_004,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,118044,7165,133132,140297,16.48,25.93,6.2
+LME_004,single-session-detail,S2(c) Summary + Recent,1,1,correct,118044,7637,96913,104550,15.46,18.56,6.3
+LME_005,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,119004,7782,0,7782,15.29,1.76,5.4
+LME_005,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,119004,6783,118367,125150,17.54,20.05,6.8
+LME_005,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,119004,7062,134092,141154,16.85,25.71,6.2
+LME_005,single-session-detail,S2(c) Summary + Recent,1,1,correct,119004,7768,97307,105075,15.32,18.49,6.3
+LME_006,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,115004,7969,0,7969,14.43,1.75,5.4
+LME_006,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,115004,6801,118336,125137,16.91,20.04,6.8
+LME_006,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,115004,7249,135509,142758,15.86,25.81,6.2
+LME_006,single-session-detail,S2(c) Summary + Recent,1,1,correct,115004,7929,95055,102984,14.5,18.72,6.3
+LME_007,single-session-detail,Truncation (8k Ref),1,1,correct,113191,8110,0,8110,13.96,1.81,5.4
+LME_007,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,113191,6882,117504,124386,16.45,20.12,6.8
+LME_007,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,113191,7062,134119,141181,16.03,25.86,6.2
+LME_007,single-session-detail,S2(c) Summary + Recent,0,0,lost_by_memory,113191,7694,95719,103413,14.71,18.71,6.3
+LME_008,single-session-detail,Truncation (8k Ref),1,1,correct,113633,7789,0,7789,14.59,1.93,5.4
+LME_008,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,113633,6758,118284,125042,16.81,19.93,6.8
+LME_008,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,113633,7098,135034,142132,16.01,25.82,6.2
+LME_008,single-session-detail,S2(c) Summary + Recent,1,1,correct,113633,7778,97437,105215,14.61,18.55,6.3
+LME_009,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,119518,8016,0,8016,14.91,1.78,5.4
+LME_009,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,119518,6679,118167,124846,17.89,20.07,6.8
+LME_009,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,119518,7129,134357,141486,16.77,25.89,6.2
+LME_009,single-session-detail,S2(c) Summary + Recent,1,1,correct,119518,7847,96272,104119,15.23,18.48,6.3
+LME_010,single-session-detail,Truncation (8k Ref),1,1,correct,109289,7836,0,7836,13.95,1.94,5.4
+LME_010,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,109289,6917,117484,124401,15.8,19.95,6.8
+LME_010,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,109289,7050,134012,141062,15.5,25.67,6.2
+LME_010,single-session-detail,S2(c) Summary + Recent,1,1,correct,109289,7765,96992,104757,14.07,18.46,6.3
+LME_011,single-session-detail,Truncation (8k Ref),1,1,correct,115764,8043,0,8043,14.39,1.76,5.4
+LME_011,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,115764,6849,119707,126556,16.9,20.04,6.8
+LME_011,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,115764,7195,135592,142787,16.09,25.73,6.2
+LME_011,single-session-detail,S2(c) Summary + Recent,0,0,lost_by_memory,115764,7949,97213,105162,14.56,18.61,6.3
+LME_012,single-session-detail,Truncation (8k Ref),1,1,correct,111874,8017,0,8017,13.95,1.81,5.4
+LME_012,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,111874,6747,116985,123732,16.58,20.05,6.8
+LME_012,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,111874,7155,133087,140242,15.64,25.87,6.2
+LME_012,single-session-detail,S2(c) Summary + Recent,0,1,ignored_by_reader,111874,7651,95829,103480,14.62,18.7,6.3
+LME_013,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,116843,8039,0,8039,14.53,1.87,5.4
+LME_013,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,116843,6936,117430,124366,16.85,20.17,6.8
+LME_013,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,116843,7284,134760,142044,16.04,25.96,6.2
+LME_013,single-session-detail,S2(c) Summary + Recent,1,1,correct,116843,7900,96854,104754,14.79,18.69,6.3
+LME_014,single-session-detail,Truncation (8k Ref),0,1,ignored_by_reader,108950,7841,0,7841,13.89,1.86,5.4
+LME_014,single-session-detail,S2(a) One-Shot (ACON),0,0,lost_by_memory,108950,6890,119041,125931,15.81,20.12,6.8
+LME_014,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,108950,7082,133685,140767,15.38,25.93,6.2
+LME_014,single-session-detail,S2(c) Summary + Recent,1,1,correct,108950,7836,97769,105605,13.9,18.58,6.3
+LME_015,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,121589,7847,0,7847,15.49,1.76,5.4
+LME_015,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,121589,6881,119682,126563,17.67,20.15,6.8
+LME_015,single-session-detail,S2(b) Recursive (ReSum),1,1,correct,121589,7052,133255,140307,17.24,25.82,6.2
+LME_015,single-session-detail,S2(c) Summary + Recent,0,0,lost_by_memory,121589,7725,97563,105288,15.74,18.49,6.3
+LME_016,single-session-detail,Truncation (8k Ref),1,1,correct,118638,7974,0,7974,14.88,1.79,5.4
+LME_016,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,118638,6748,117911,124659,17.58,20.15,6.8
+LME_016,single-session-detail,S2(b) Recursive (ReSum),0,1,ignored_by_reader,118638,6958,133858,140816,17.05,25.68,6.2
+LME_016,single-session-detail,S2(c) Summary + Recent,1,1,correct,118638,7840,97755,105595,15.13,18.53,6.3
+LME_017,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,110724,7920,0,7920,13.98,1.81,5.4
+LME_017,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,110724,6960,118371,125331,15.91,20.02,6.8
+LME_017,single-session-detail,S2(b) Recursive (ReSum),0,1,ignored_by_reader,110724,7290,132856,140146,15.19,25.68,6.2
+LME_017,single-session-detail,S2(c) Summary + Recent,1,1,correct,110724,7746,96959,104705,14.29,18.71,6.3
+LME_018,single-session-detail,Truncation (8k Ref),0,0,lost_by_memory,115651,7925,0,7925,14.59,1.88,5.4
+LME_018,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,115651,6926,118114,125040,16.7,19.96,6.8
+LME_018,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,115651,7028,133460,140488,16.46,25.95,6.2
+LME_018,single-session-detail,S2(c) Summary + Recent,1,1,correct,115651,7719,97174,104893,14.98,18.48,6.3
+LME_019,single-session-detail,Truncation (8k Ref),1,1,correct,110160,7856,0,7856,14.02,1.73,5.4
+LME_019,single-session-detail,S2(a) One-Shot (ACON),1,1,correct,110160,6862,117134,123996,16.05,20.06,6.8
+LME_019,single-session-detail,S2(b) Recursive (ReSum),0,0,lost_by_memory,110160,7081,134428,141509,15.56,25.68,6.2
+LME_019,single-session-detail,S2(c) Summary + Recent,1,1,correct,110160,7852,96969,104821,14.03,18.49,6.3
+LME_020,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,113132,8066,0,8066,14.03,1.88,5.4
+LME_020,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,113132,7015,119093,126108,16.13,19.91,6.8
+LME_020,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,113132,7240,135053,142293,15.63,25.7,6.2
+LME_020,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,113132,7916,96638,104554,14.29,18.64,6.3
+LME_021,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,121545,7799,0,7799,15.58,1.91,5.4
+LME_021,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,121545,6760,118132,124892,17.98,19.94,6.8
+LME_021,multi-session-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,121545,7192,132911,140103,16.9,25.69,6.2
+LME_021,multi-session-reasoning,S2(c) Summary + Recent,0,0,lost_by_memory,121545,7637,95892,103529,15.92,18.75,6.3
+LME_022,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,109068,7936,0,7936,13.74,1.99,5.4
+LME_022,multi-session-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,109068,6822,118010,124832,15.99,20.02,6.8
+LME_022,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,109068,7176,135399,142575,15.2,25.74,6.2
+LME_022,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,109068,7818,96226,104044,13.95,18.51,6.3
+LME_023,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,114573,8060,0,8060,14.22,1.91,5.4
+LME_023,multi-session-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,114573,6878,118511,125389,16.66,19.95,6.8
+LME_023,multi-session-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,114573,7068,134553,141621,16.21,25.79,6.2
+LME_023,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,114573,7648,96184,103832,14.98,18.47,6.3
+LME_024,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,117610,8050,0,8050,14.61,1.73,5.4
+LME_024,multi-session-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,117610,6982,118322,125304,16.84,20.02,6.8
+LME_024,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,117610,7076,134629,141705,16.62,25.7,6.2
+LME_024,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,117610,7934,95125,103059,14.82,18.74,6.3
+LME_025,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,114659,7905,0,7905,14.5,1.89,5.4
+LME_025,multi-session-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,114659,6767,119665,126432,16.94,19.96,6.8
+LME_025,multi-session-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,114659,6961,132722,139683,16.47,25.96,6.2
+LME_025,multi-session-reasoning,S2(c) Summary + Recent,0,1,ignored_by_reader,114659,7969,95649,103618,14.39,18.45,6.3
+LME_026,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,121164,7916,0,7916,15.31,1.81,5.4
+LME_026,multi-session-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,121164,7026,118029,125055,17.25,20.01,6.8
+LME_026,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,121164,7081,134104,141185,17.11,25.71,6.2
+LME_026,multi-session-reasoning,S2(c) Summary + Recent,0,1,ignored_by_reader,121164,7792,96097,103889,15.55,18.72,6.3
+LME_027,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,114120,8107,0,8107,14.08,1.97,5.4
+LME_027,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,114120,6713,117607,124320,17.0,20.17,6.8
+LME_027,multi-session-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,114120,7081,134239,141320,16.12,25.9,6.2
+LME_027,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,114120,7677,95682,103359,14.87,18.74,6.3
+LME_028,multi-session-reasoning,Truncation (8k Ref),1,1,correct,109361,7902,0,7902,13.84,1.82,5.4
+LME_028,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,109361,6757,118522,125279,16.18,20.11,6.8
+LME_028,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,109361,6993,134360,141353,15.64,25.87,6.2
+LME_028,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,109361,7690,97172,104862,14.22,18.58,6.3
+LME_029,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,112373,7830,0,7830,14.35,1.75,5.4
+LME_029,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,112373,6828,119328,126156,16.46,20.01,6.8
+LME_029,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,112373,7292,135327,142619,15.41,25.95,6.2
+LME_029,multi-session-reasoning,S2(c) Summary + Recent,0,0,lost_by_memory,112373,7885,95111,102996,14.25,18.67,6.3
+LME_030,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,119783,7864,0,7864,15.23,1.73,5.4
+LME_030,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,119783,6867,119739,126606,17.44,20.02,6.8
+LME_030,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,119783,7016,135118,142134,17.07,25.8,6.2
+LME_030,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,119783,7908,97792,105700,15.15,18.48,6.3
+LME_031,multi-session-reasoning,Truncation (8k Ref),1,1,correct,113424,7885,0,7885,14.38,1.81,5.4
+LME_031,multi-session-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,113424,6832,119118,125950,16.6,19.98,6.8
+LME_031,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,113424,7120,134997,142117,15.93,25.8,6.2
+LME_031,multi-session-reasoning,S2(c) Summary + Recent,0,1,ignored_by_reader,113424,7730,97664,105394,14.67,18.56,6.3
+LME_032,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,116914,8115,0,8115,14.41,1.97,5.4
+LME_032,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,116914,6998,118691,125689,16.71,19.95,6.8
+LME_032,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,116914,7056,134090,141146,16.57,25.79,6.2
+LME_032,multi-session-reasoning,S2(c) Summary + Recent,0,0,lost_by_memory,116914,7928,97204,105132,14.75,18.46,6.3
+LME_033,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,109956,7909,0,7909,13.9,1.84,5.4
+LME_033,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,109956,6978,118095,125073,15.76,19.99,6.8
+LME_033,multi-session-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,109956,7137,132797,139934,15.41,25.7,6.2
+LME_033,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,109956,7755,97314,105069,14.18,18.58,6.3
+LME_034,multi-session-reasoning,Truncation (8k Ref),1,1,correct,119155,7871,0,7871,15.14,1.88,5.4
+LME_034,multi-session-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,119155,6933,118584,125517,17.19,20.16,6.8
+LME_034,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,119155,6986,135344,142330,17.06,25.86,6.2
+LME_034,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,119155,7818,95314,103132,15.24,18.49,6.3
+LME_035,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,119016,7778,0,7778,15.3,1.94,5.4
+LME_035,multi-session-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,119016,6933,118779,125712,17.17,20.12,6.8
+LME_035,multi-session-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,119016,7004,135365,142369,16.99,25.84,6.2
+LME_035,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,119016,7749,96032,103781,15.36,18.46,6.3
+LME_036,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,111879,8003,0,8003,13.98,1.92,5.4
+LME_036,multi-session-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,111879,6931,117025,123956,16.14,20.01,6.8
+LME_036,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,111879,7117,132861,139978,15.72,25.75,6.2
+LME_036,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,111879,7953,96296,104249,14.07,18.48,6.3
+LME_037,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,118930,7865,0,7865,15.12,1.96,5.4
+LME_037,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,118930,6814,119821,126635,17.45,20.12,6.8
+LME_037,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,118930,7087,133676,140763,16.78,25.77,6.2
+LME_037,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,118930,7875,97990,105865,15.1,18.69,6.3
+LME_038,multi-session-reasoning,Truncation (8k Ref),1,1,correct,108521,7805,0,7805,13.9,1.8,5.4
+LME_038,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,108521,6924,119129,126053,15.67,19.92,6.8
+LME_038,multi-session-reasoning,S2(b) Recursive (ReSum),1,1,correct,108521,7241,134385,141626,14.99,25.96,6.2
+LME_038,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,108521,7701,95434,103135,14.09,18.64,6.3
+LME_039,multi-session-reasoning,Truncation (8k Ref),0,0,lost_by_memory,109957,8017,0,8017,13.72,1.98,5.4
+LME_039,multi-session-reasoning,S2(a) One-Shot (ACON),1,1,correct,109957,6689,119043,125732,16.44,20.09,6.8
+LME_039,multi-session-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,109957,7127,134069,141196,15.43,25.86,6.2
+LME_039,multi-session-reasoning,S2(c) Summary + Recent,1,1,correct,109957,7705,96141,103846,14.27,18.47,6.3
+LME_040,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,117162,8080,0,8080,14.5,1.96,5.4
+LME_040,temporal-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,117162,6799,119422,126221,17.23,19.99,6.8
+LME_040,temporal-reasoning,S2(b) Recursive (ReSum),1,1,correct,117162,6952,133679,140631,16.85,25.79,6.2
+LME_040,temporal-reasoning,S2(c) Summary + Recent,0,0,lost_by_memory,117162,7726,95324,103050,15.16,18.57,6.3
+LME_041,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,114595,7764,0,7764,14.76,1.89,5.4
+LME_041,temporal-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,114595,6976,119141,126117,16.43,20.06,6.8
+LME_041,temporal-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,114595,7258,134637,141895,15.79,25.79,6.2
+LME_041,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,114595,7970,97033,105003,14.38,18.65,6.3
+LME_042,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,116044,8038,0,8038,14.44,2.0,5.4
+LME_042,temporal-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,116044,6971,118822,125793,16.65,20.13,6.8
+LME_042,temporal-reasoning,S2(b) Recursive (ReSum),1,1,correct,116044,7034,135087,142121,16.5,25.84,6.2
+LME_042,temporal-reasoning,S2(c) Summary + Recent,0,0,lost_by_memory,116044,7985,97179,105164,14.53,18.52,6.3
+LME_043,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,116886,7980,0,7980,14.65,1.88,5.4
+LME_043,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,116886,6741,118048,124789,17.34,20.06,6.8
+LME_043,temporal-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,116886,7111,135438,142549,16.44,25.93,6.2
+LME_043,temporal-reasoning,S2(c) Summary + Recent,0,1,ignored_by_reader,116886,7965,96516,104481,14.67,18.59,6.3
+LME_044,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,119128,7786,0,7786,15.3,1.87,5.4
+LME_044,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,119128,6728,117882,124610,17.71,19.91,6.8
+LME_044,temporal-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,119128,7260,132703,139963,16.41,25.95,6.2
+LME_044,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,119128,7778,96375,104153,15.32,18.5,6.3
+LME_045,temporal-reasoning,Truncation (8k Ref),1,1,correct,112255,7964,0,7964,14.1,1.95,5.4
+LME_045,temporal-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,112255,6681,117991,124672,16.8,19.97,6.8
+LME_045,temporal-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,112255,7123,134895,142018,15.76,25.8,6.2
+LME_045,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,112255,7679,95496,103175,14.62,18.46,6.3
+LME_046,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,121758,7842,0,7842,15.53,1.99,5.4
+LME_046,temporal-reasoning,S2(a) One-Shot (ACON),1,1,correct,121758,6901,117534,124435,17.64,20.07,6.8
+LME_046,temporal-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,121758,7121,134240,141361,17.1,25.89,6.2
+LME_046,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,121758,7790,96950,104740,15.63,18.49,6.3
+LME_047,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,111004,7907,0,7907,14.04,1.74,5.4
+LME_047,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,111004,6715,118884,125599,16.53,20.15,6.8
+LME_047,temporal-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,111004,7181,134349,141530,15.46,25.73,6.2
+LME_047,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,111004,7900,97702,105602,14.05,18.64,6.3
+LME_048,temporal-reasoning,Truncation (8k Ref),1,1,correct,108485,7796,0,7796,13.92,1.88,5.4
+LME_048,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,108485,6786,118113,124899,15.99,20.03,6.8
+LME_048,temporal-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,108485,7105,134137,141242,15.27,25.79,6.2
+LME_048,temporal-reasoning,S2(c) Summary + Recent,0,0,lost_by_memory,108485,7810,95271,103081,13.89,18.58,6.3
+LME_049,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,111275,7838,0,7838,14.2,1.91,5.4
+LME_049,temporal-reasoning,S2(a) One-Shot (ACON),1,1,correct,111275,6954,118037,124991,16.0,20.11,6.8
+LME_049,temporal-reasoning,S2(b) Recursive (ReSum),1,1,correct,111275,7263,133007,140270,15.32,25.83,6.2
+LME_049,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,111275,7951,97400,105351,14.0,18.65,6.3
+LME_050,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,120847,7822,0,7822,15.45,1.85,5.4
+LME_050,temporal-reasoning,S2(a) One-Shot (ACON),1,1,correct,120847,6994,119430,126424,17.28,19.94,6.8
+LME_050,temporal-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,120847,6971,133271,140242,17.34,25.89,6.2
+LME_050,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,120847,7712,97191,104903,15.67,18.67,6.3
+LME_051,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,112110,7973,0,7973,14.06,1.88,5.4
+LME_051,temporal-reasoning,S2(a) One-Shot (ACON),1,1,correct,112110,6891,118966,125857,16.27,19.94,6.8
+LME_051,temporal-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,112110,7256,133625,140881,15.45,25.69,6.2
+LME_051,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,112110,7943,96593,104536,14.11,18.64,6.3
+LME_052,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,115070,8119,0,8119,14.17,1.79,5.4
+LME_052,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,115070,6723,117412,124135,17.12,20.08,6.8
+LME_052,temporal-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,115070,6986,133479,140465,16.47,25.69,6.2
+LME_052,temporal-reasoning,S2(c) Summary + Recent,0,1,ignored_by_reader,115070,7942,97614,105556,14.49,18.56,6.3
+LME_053,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,118974,8110,0,8110,14.67,1.96,5.4
+LME_053,temporal-reasoning,S2(a) One-Shot (ACON),1,1,correct,118974,6853,119101,125954,17.36,20.0,6.8
+LME_053,temporal-reasoning,S2(b) Recursive (ReSum),1,1,correct,118974,7210,132787,139997,16.5,25.78,6.2
+LME_053,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,118974,7934,97104,105038,15.0,18.47,6.3
+LME_054,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,113851,7964,0,7964,14.3,1.75,5.4
+LME_054,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,113851,6933,118522,125455,16.42,19.95,6.8
+LME_054,temporal-reasoning,S2(b) Recursive (ReSum),1,1,correct,113851,7259,133173,140432,15.68,25.96,6.2
+LME_054,temporal-reasoning,S2(c) Summary + Recent,0,0,lost_by_memory,113851,7936,95119,103055,14.35,18.65,6.3
+LME_055,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,119396,7761,0,7761,15.38,1.94,5.4
+LME_055,temporal-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,119396,6929,118162,125091,17.23,20.18,6.8
+LME_055,temporal-reasoning,S2(b) Recursive (ReSum),1,1,correct,119396,6979,132734,139713,17.11,25.9,6.2
+LME_055,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,119396,7646,97481,105127,15.62,18.49,6.3
+LME_056,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,109485,8020,0,8020,13.65,1.87,5.4
+LME_056,temporal-reasoning,S2(a) One-Shot (ACON),1,1,correct,109485,6983,119211,126194,15.68,20.07,6.8
+LME_056,temporal-reasoning,S2(b) Recursive (ReSum),0,0,lost_by_memory,109485,7035,133970,141005,15.56,25.75,6.2
+LME_056,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,109485,7789,95750,103539,14.06,18.46,6.3
+LME_057,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,109260,7833,0,7833,13.95,1.85,5.4
+LME_057,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,109260,6849,118651,125500,15.95,20.01,6.8
+LME_057,temporal-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,109260,7226,134681,141907,15.12,25.96,6.2
+LME_057,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,109260,7635,96910,104545,14.31,18.63,6.3
+LME_058,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,118038,7903,0,7903,14.94,1.75,5.4
+LME_058,temporal-reasoning,S2(a) One-Shot (ACON),0,0,lost_by_memory,118038,6955,118950,125905,16.97,19.96,6.8
+LME_058,temporal-reasoning,S2(b) Recursive (ReSum),1,1,correct,118038,6979,134375,141354,16.91,25.84,6.2
+LME_058,temporal-reasoning,S2(c) Summary + Recent,0,1,ignored_by_reader,118038,7667,95478,103145,15.4,18.53,6.3
+LME_059,temporal-reasoning,Truncation (8k Ref),0,0,lost_by_memory,110257,8111,0,8111,13.59,1.97,5.4
+LME_059,temporal-reasoning,S2(a) One-Shot (ACON),0,1,ignored_by_reader,110257,6886,118414,125300,16.01,20.19,6.8
+LME_059,temporal-reasoning,S2(b) Recursive (ReSum),0,1,ignored_by_reader,110257,6956,133934,140890,15.85,25.76,6.2
+LME_059,temporal-reasoning,S2(c) Summary + Recent,1,1,correct,110257,7966,97086,105052,13.84,18.64,6.3
+LME_060,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,114962,7760,0,7760,14.81,1.75,5.4
+LME_060,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,114962,6700,119869,126569,17.16,20.12,6.8
+LME_060,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,114962,6996,133954,140950,16.43,25.68,6.2
+LME_060,knowledge-update,S2(c) Summary + Recent,0,0,lost_by_memory,114962,7759,96717,104476,14.82,18.55,6.3
+LME_061,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,117748,7962,0,7962,14.79,1.73,5.4
+LME_061,knowledge-update,S2(a) One-Shot (ACON),0,0,lost_by_memory,117748,6714,117961,124675,17.54,19.91,6.8
+LME_061,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,117748,7288,135627,142915,16.16,25.72,6.2
+LME_061,knowledge-update,S2(c) Summary + Recent,1,1,correct,117748,7635,95680,103315,15.42,18.63,6.3
+LME_062,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,111342,7867,0,7867,14.15,2.01,5.4
+LME_062,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,111342,6815,117302,124117,16.34,20.04,6.8
+LME_062,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,111342,6951,133398,140349,16.02,25.8,6.2
+LME_062,knowledge-update,S2(c) Summary + Recent,1,1,correct,111342,7758,95435,103193,14.35,18.58,6.3
+LME_063,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,112221,8114,0,8114,13.83,1.85,5.4
+LME_063,knowledge-update,S2(a) One-Shot (ACON),0,1,ignored_by_reader,112221,7013,117530,124543,16.0,19.98,6.8
+LME_063,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,112221,6989,134718,141707,16.06,25.91,6.2
+LME_063,knowledge-update,S2(c) Summary + Recent,0,0,lost_by_memory,112221,7822,95097,102919,14.35,18.56,6.3
+LME_064,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,121435,7911,0,7911,15.35,1.77,5.4
+LME_064,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,121435,7014,117724,124738,17.31,20.19,6.8
+LME_064,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,121435,7276,135248,142524,16.69,25.89,6.2
+LME_064,knowledge-update,S2(c) Summary + Recent,1,1,correct,121435,7718,96442,104160,15.73,18.58,6.3
+LME_065,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,109227,7786,0,7786,14.03,1.75,5.4
+LME_065,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,109227,6740,118604,125344,16.21,20.2,6.8
+LME_065,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,109227,7122,134555,141677,15.34,25.88,6.2
+LME_065,knowledge-update,S2(c) Summary + Recent,1,1,correct,109227,7849,95566,103415,13.92,18.55,6.3
+LME_066,knowledge-update,Truncation (8k Ref),1,1,correct,113127,7865,0,7865,14.38,1.87,5.4
+LME_066,knowledge-update,S2(a) One-Shot (ACON),0,0,lost_by_memory,113127,6781,117177,123958,16.68,19.9,6.8
+LME_066,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,113127,6986,133975,140961,16.19,25.68,6.2
+LME_066,knowledge-update,S2(c) Summary + Recent,1,1,correct,113127,7915,96614,104529,14.29,18.46,6.3
+LME_067,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,120720,7786,0,7786,15.5,1.9,5.4
+LME_067,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,120720,6706,118084,124790,18.0,20.05,6.8
+LME_067,knowledge-update,S2(b) Recursive (ReSum),0,0,lost_by_memory,120720,7113,135084,142197,16.97,25.72,6.2
+LME_067,knowledge-update,S2(c) Summary + Recent,1,1,correct,120720,7834,95184,103018,15.41,18.56,6.3
+LME_068,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,118699,7953,0,7953,14.93,1.91,5.4
+LME_068,knowledge-update,S2(a) One-Shot (ACON),0,0,lost_by_memory,118699,6936,117910,124846,17.11,20.16,6.8
+LME_068,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,118699,7099,133962,141061,16.72,25.76,6.2
+LME_068,knowledge-update,S2(c) Summary + Recent,1,1,correct,118699,7819,95451,103270,15.18,18.49,6.3
+LME_069,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,121568,7768,0,7768,15.65,1.95,5.4
+LME_069,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,121568,6740,119033,125773,18.04,20.13,6.8
+LME_069,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,121568,7015,132810,139825,17.33,25.73,6.2
+LME_069,knowledge-update,S2(c) Summary + Recent,0,1,ignored_by_reader,121568,7766,96909,104675,15.65,18.75,6.3
+LME_070,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,119046,7990,0,7990,14.9,1.91,5.4
+LME_070,knowledge-update,S2(a) One-Shot (ACON),0,1,ignored_by_reader,119046,6890,117923,124813,17.28,20.04,6.8
+LME_070,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,119046,7030,133750,140780,16.93,25.94,6.2
+LME_070,knowledge-update,S2(c) Summary + Recent,1,1,correct,119046,7961,97320,105281,14.95,18.53,6.3
+LME_071,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,114291,8035,0,8035,14.22,1.77,5.4
+LME_071,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,114291,6850,118869,125719,16.68,20.14,6.8
+LME_071,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,114291,7144,133528,140672,16.0,25.79,6.2
+LME_071,knowledge-update,S2(c) Summary + Recent,1,1,correct,114291,7922,96087,104009,14.43,18.64,6.3
+LME_072,knowledge-update,Truncation (8k Ref),1,1,correct,114258,8072,0,8072,14.15,1.84,5.4
+LME_072,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,114258,6882,117755,124637,16.6,19.95,6.8
+LME_072,knowledge-update,S2(b) Recursive (ReSum),0,0,lost_by_memory,114258,6940,134823,141763,16.46,25.94,6.2
+LME_072,knowledge-update,S2(c) Summary + Recent,1,1,correct,114258,7831,97216,105047,14.59,18.47,6.3
+LME_073,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,120636,7788,0,7788,15.49,1.75,5.4
+LME_073,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,120636,6863,118590,125453,17.58,20.18,6.8
+LME_073,knowledge-update,S2(b) Recursive (ReSum),0,1,ignored_by_reader,120636,7292,133629,140921,16.54,25.96,6.2
+LME_073,knowledge-update,S2(c) Summary + Recent,0,1,ignored_by_reader,120636,7975,95054,103029,15.13,18.54,6.3
+LME_074,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,118102,8052,0,8052,14.67,1.91,5.4
+LME_074,knowledge-update,S2(a) One-Shot (ACON),0,1,ignored_by_reader,118102,6984,119302,126286,16.91,20.13,6.8
+LME_074,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,118102,7247,133863,141110,16.3,25.92,6.2
+LME_074,knowledge-update,S2(c) Summary + Recent,1,1,correct,118102,7803,95663,103466,15.14,18.72,6.3
+LME_075,knowledge-update,Truncation (8k Ref),1,1,correct,112283,8027,0,8027,13.99,1.81,5.4
+LME_075,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,112283,7025,117235,124260,15.98,20.14,6.8
+LME_075,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,112283,6984,133497,140481,16.08,25.93,6.2
+LME_075,knowledge-update,S2(c) Summary + Recent,0,1,ignored_by_reader,112283,7672,95330,103002,14.64,18.66,6.3
+LME_076,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,114484,8107,0,8107,14.12,1.79,5.4
+LME_076,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,114484,7009,119261,126270,16.33,19.96,6.8
+LME_076,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,114484,7196,134208,141404,15.91,25.78,6.2
+LME_076,knowledge-update,S2(c) Summary + Recent,0,0,lost_by_memory,114484,7842,95632,103474,14.6,18.54,6.3
+LME_077,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,119992,7869,0,7869,15.25,1.91,5.4
+LME_077,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,119992,6936,117768,124704,17.3,20.17,6.8
+LME_077,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,119992,7294,134458,141752,16.45,25.94,6.2
+LME_077,knowledge-update,S2(c) Summary + Recent,1,1,correct,119992,7688,95797,103485,15.61,18.74,6.3
+LME_078,knowledge-update,Truncation (8k Ref),1,1,correct,117286,8009,0,8009,14.64,1.87,5.4
+LME_078,knowledge-update,S2(a) One-Shot (ACON),0,0,lost_by_memory,117286,6952,119116,126068,16.87,19.93,6.8
+LME_078,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,117286,7116,133646,140762,16.48,25.82,6.2
+LME_078,knowledge-update,S2(c) Summary + Recent,1,1,correct,117286,7636,97724,105360,15.36,18.61,6.3
+LME_079,knowledge-update,Truncation (8k Ref),0,0,lost_by_memory,114049,8074,0,8074,14.13,1.87,5.4
+LME_079,knowledge-update,S2(a) One-Shot (ACON),1,1,correct,114049,6839,119520,126359,16.68,20.15,6.8
+LME_079,knowledge-update,S2(b) Recursive (ReSum),1,1,correct,114049,7158,135463,142621,15.93,25.95,6.2
+LME_079,knowledge-update,S2(c) Summary + Recent,1,1,correct,114049,7940,96431,104371,14.36,18.52,6.3
+LME_080,abstention,Truncation (8k Ref),1,1,correct,109325,8060,0,8060,13.56,1.87,5.4
+LME_080,abstention,S2(a) One-Shot (ACON),0,1,ignored_by_reader,109325,6914,117992,124906,15.81,20.15,6.8
+LME_080,abstention,S2(b) Recursive (ReSum),1,1,correct,109325,7182,133507,140689,15.22,25.79,6.2
+LME_080,abstention,S2(c) Summary + Recent,1,1,correct,109325,7682,97442,105124,14.23,18.55,6.3
+LME_081,abstention,Truncation (8k Ref),0,1,ignored_by_reader,117097,7959,0,7959,14.71,1.95,5.4
+LME_081,abstention,S2(a) One-Shot (ACON),1,1,correct,117097,7023,118928,125951,16.67,19.91,6.8
+LME_081,abstention,S2(b) Recursive (ReSum),0,1,ignored_by_reader,117097,7291,135499,142790,16.06,25.7,6.2
+LME_081,abstention,S2(c) Summary + Recent,1,1,correct,117097,7681,96407,104088,15.25,18.7,6.3
+LME_082,abstention,Truncation (8k Ref),1,1,correct,119016,7985,0,7985,14.9,1.86,5.4
+LME_082,abstention,S2(a) One-Shot (ACON),0,1,ignored_by_reader,119016,6884,118759,125643,17.29,20.09,6.8
+LME_082,abstention,S2(b) Recursive (ReSum),0,1,ignored_by_reader,119016,7000,133470,140470,17.0,25.88,6.2
+LME_082,abstention,S2(c) Summary + Recent,1,1,correct,119016,7979,95053,103032,14.92,18.54,6.3
+LME_083,abstention,Truncation (8k Ref),1,1,correct,108582,7770,0,7770,13.97,1.78,5.4
+LME_083,abstention,S2(a) One-Shot (ACON),1,1,correct,108582,6719,118979,125698,16.16,20.1,6.8
+LME_083,abstention,S2(b) Recursive (ReSum),1,1,correct,108582,6947,133437,140384,15.63,25.77,6.2
+LME_083,abstention,S2(c) Summary + Recent,1,1,correct,108582,7674,96362,104036,14.15,18.68,6.3
+LME_084,abstention,Truncation (8k Ref),1,1,correct,117248,7881,0,7881,14.88,1.82,5.4
+LME_084,abstention,S2(a) One-Shot (ACON),1,1,correct,117248,6857,118112,124969,17.1,20.15,6.8
+LME_084,abstention,S2(b) Recursive (ReSum),1,1,correct,117248,7113,133226,140339,16.48,25.83,6.2
+LME_084,abstention,S2(c) Summary + Recent,1,1,correct,117248,7968,96987,104955,14.71,18.69,6.3
+LME_085,abstention,Truncation (8k Ref),1,1,correct,110023,8087,0,8087,13.6,1.83,5.4
+LME_085,abstention,S2(a) One-Shot (ACON),1,1,correct,110023,6981,119823,126804,15.76,20.19,6.8
+LME_085,abstention,S2(b) Recursive (ReSum),1,1,correct,110023,7296,134777,142073,15.08,25.83,6.2
+LME_085,abstention,S2(c) Summary + Recent,1,1,correct,110023,7845,97122,104967,14.02,18.71,6.3
+LME_086,abstention,Truncation (8k Ref),1,1,correct,119108,7984,0,7984,14.92,1.84,5.4
+LME_086,abstention,S2(a) One-Shot (ACON),0,1,ignored_by_reader,119108,6724,116945,123669,17.71,20.04,6.8
+LME_086,abstention,S2(b) Recursive (ReSum),1,1,correct,119108,6999,134374,141373,17.02,25.89,6.2
+LME_086,abstention,S2(c) Summary + Recent,1,1,correct,119108,7753,97528,105281,15.36,18.63,6.3
+LME_087,abstention,Truncation (8k Ref),1,1,correct,110388,7972,0,7972,13.85,1.94,5.4
+LME_087,abstention,S2(a) One-Shot (ACON),1,1,correct,110388,7022,118016,125038,15.72,19.95,6.8
+LME_087,abstention,S2(b) Recursive (ReSum),1,1,correct,110388,7190,133651,140841,15.35,25.87,6.2
+LME_087,abstention,S2(c) Summary + Recent,1,1,correct,110388,7758,96042,103800,14.23,18.71,6.3
+LME_088,abstention,Truncation (8k Ref),0,1,ignored_by_reader,114258,7810,0,7810,14.63,1.96,5.4
+LME_088,abstention,S2(a) One-Shot (ACON),1,1,correct,114258,6677,118523,125200,17.11,20.05,6.8
+LME_088,abstention,S2(b) Recursive (ReSum),0,1,ignored_by_reader,114258,7012,133151,140163,16.29,25.8,6.2
+LME_088,abstention,S2(c) Summary + Recent,1,1,correct,114258,7681,95358,103039,14.88,18.74,6.3
+LME_089,abstention,Truncation (8k Ref),1,1,correct,112856,7907,0,7907,14.27,1.78,5.4
+LME_089,abstention,S2(a) One-Shot (ACON),1,1,correct,112856,6950,119439,126389,16.24,19.92,6.8
+LME_089,abstention,S2(b) Recursive (ReSum),1,1,correct,112856,6950,133711,140661,16.24,25.9,6.2
+LME_089,abstention,S2(c) Summary + Recent,1,1,correct,112856,7924,95380,103304,14.24,18.58,6.3
+LME_090,abstention,Truncation (8k Ref),0,1,ignored_by_reader,110120,7919,0,7919,13.91,1.84,5.4
+LME_090,abstention,S2(a) One-Shot (ACON),1,1,correct,110120,6704,118578,125282,16.43,20.09,6.8
+LME_090,abstention,S2(b) Recursive (ReSum),1,1,correct,110120,7115,134382,141497,15.48,25.73,6.2
+LME_090,abstention,S2(c) Summary + Recent,1,1,correct,110120,7877,96068,103945,13.98,18.74,6.3
+LME_091,abstention,Truncation (8k Ref),0,1,ignored_by_reader,121419,8066,0,8066,15.05,1.85,5.4
+LME_091,abstention,S2(a) One-Shot (ACON),1,1,correct,121419,6984,117570,124554,17.39,20.07,6.8
+LME_091,abstention,S2(b) Recursive (ReSum),0,1,ignored_by_reader,121419,7028,133413,140441,17.28,25.71,6.2
+LME_091,abstention,S2(c) Summary + Recent,1,1,correct,121419,7940,96271,104211,15.29,18.47,6.3
+LME_092,abstention,Truncation (8k Ref),1,1,correct,108909,7861,0,7861,13.85,2.01,5.4
+LME_092,abstention,S2(a) One-Shot (ACON),0,1,ignored_by_reader,108909,6752,117118,123870,16.13,20.03,6.8
+LME_092,abstention,S2(b) Recursive (ReSum),1,1,correct,108909,7287,132823,140110,14.95,25.88,6.2
+LME_092,abstention,S2(c) Summary + Recent,0,1,ignored_by_reader,108909,7770,96323,104093,14.02,18.61,6.3
+LME_093,abstention,Truncation (8k Ref),0,1,ignored_by_reader,109158,7781,0,7781,14.03,1.83,5.4
+LME_093,abstention,S2(a) One-Shot (ACON),1,1,correct,109158,6736,118937,125673,16.21,19.93,6.8
+LME_093,abstention,S2(b) Recursive (ReSum),1,1,correct,109158,7107,134826,141933,15.36,25.76,6.2
+LME_093,abstention,S2(c) Summary + Recent,1,1,correct,109158,7709,95739,103448,14.16,18.64,6.3
+LME_094,abstention,Truncation (8k Ref),1,1,correct,114176,7837,0,7837,14.57,1.95,5.4
+LME_094,abstention,S2(a) One-Shot (ACON),1,1,correct,114176,6913,117974,124887,16.52,19.98,6.8
+LME_094,abstention,S2(b) Recursive (ReSum),1,1,correct,114176,7186,135370,142556,15.89,25.9,6.2
+LME_094,abstention,S2(c) Summary + Recent,1,1,correct,114176,7843,95901,103744,14.56,18.7,6.3
+LME_095,abstention,Truncation (8k Ref),1,1,correct,121129,7980,0,7980,15.18,1.97,5.4
+LME_095,abstention,S2(a) One-Shot (ACON),1,1,correct,121129,6828,117912,124740,17.74,19.93,6.8
+LME_095,abstention,S2(b) Recursive (ReSum),1,1,correct,121129,7176,133073,140249,16.88,25.7,6.2
+LME_095,abstention,S2(c) Summary + Recent,1,1,correct,121129,7945,97681,105626,15.25,18.56,6.3
+LME_096,abstention,Truncation (8k Ref),0,1,ignored_by_reader,119306,7987,0,7987,14.94,1.93,5.4
+LME_096,abstention,S2(a) One-Shot (ACON),0,1,ignored_by_reader,119306,6829,119710,126539,17.47,20.09,6.8
+LME_096,abstention,S2(b) Recursive (ReSum),0,1,ignored_by_reader,119306,7298,133104,140402,16.35,25.76,6.2
+LME_096,abstention,S2(c) Summary + Recent,1,1,correct,119306,7643,97589,105232,15.61,18.63,6.3
+LME_097,abstention,Truncation (8k Ref),0,1,ignored_by_reader,111737,7868,0,7868,14.2,1.76,5.4
+LME_097,abstention,S2(a) One-Shot (ACON),1,1,correct,111737,7027,119821,126848,15.9,20.08,6.8
+LME_097,abstention,S2(b) Recursive (ReSum),0,1,ignored_by_reader,111737,7244,134638,141882,15.42,25.72,6.2
+LME_097,abstention,S2(c) Summary + Recent,1,1,correct,111737,7882,95154,103036,14.18,18.63,6.3
+LME_098,abstention,Truncation (8k Ref),0,1,ignored_by_reader,119896,7989,0,7989,15.01,1.95,5.4
+LME_098,abstention,S2(a) One-Shot (ACON),0,1,ignored_by_reader,119896,7028,119281,126309,17.06,19.94,6.8
+LME_098,abstention,S2(b) Recursive (ReSum),1,1,correct,119896,6991,134604,141595,17.15,25.84,6.2
+LME_098,abstention,S2(c) Summary + Recent,1,1,correct,119896,7975,96900,104875,15.03,18.55,6.3
+LME_099,abstention,Truncation (8k Ref),1,1,correct,114144,7958,0,7958,14.34,1.73,5.4
+LME_099,abstention,S2(a) One-Shot (ACON),1,1,correct,114144,6753,119306,126059,16.9,20.09,6.8
+LME_099,abstention,S2(b) Recursive (ReSum),1,1,correct,114144,7031,133819,140850,16.23,25.88,6.2
+LME_099,abstention,S2(c) Summary + Recent,1,1,correct,114144,7780,96053,103833,14.67,18.62,6.3

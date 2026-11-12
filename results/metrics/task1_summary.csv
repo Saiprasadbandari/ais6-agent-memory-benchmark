@@ -1,0 +1,5 @@
+Variant,Accuracy (%),95% CI,Gain vs Ref (pts),McNemar p-val,Evidence Survival (%),Compression Ratio,Prompt Tokens,Build Tokens,Sec / Question,Lost Share (%),Ignored Share (%)
+Truncation (8k Ref),29.0,"[21.0, 38.0]",0.0,1.0,38.0,14.5x,7936,0,1.86,87.3,12.7
+S2(a) One-Shot (ACON),56.0,"[46.0, 66.0]",27.0,0.0003,76.0,16.7x,6866,118479,20.05,54.5,45.5
+S2(b) Recursive (ReSum),61.0,"[51.0, 70.0]",32.0,0.0,79.0,16.2x,7111,134076,25.82,53.8,46.2
+S2(c) Summary + Recent,76.0,"[68.0, 84.0]",47.0,0.0,87.0,14.7x,7810,96408,18.59,54.2,45.8

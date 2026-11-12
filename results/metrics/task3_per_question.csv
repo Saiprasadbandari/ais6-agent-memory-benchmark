@@ -1,0 +1,401 @@
+question_id,question_type,setting,correct,evidence_coverage,error_type,stored_memories,answer_tokens,build_tokens,total_tokens,token_reduction_vs_full_pct,total_seconds,answer_seconds,peak_gpu_gb
+LME_000,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7919,0,7940,93.22,1.87,1.85,5.4
+LME_000,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,41,361,116500,116880,99.68,22.28,0.78,5.8
+LME_000,single-session-detail,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,53,415,119200,119640,99.62,23.62,0.82,5.9
+LME_000,single-session-detail,M3 Default (top_k=10),1,1,correct,38,765,116500,117260,99.35,22.51,0.91,5.8
+LME_001,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7961,0,7940,93.04,1.87,1.85,5.4
+LME_001,single-session-detail,M1 Default (top_k=5),1,1,correct,38,375,116500,116880,99.67,22.28,0.78,5.8
+LME_001,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,437,119200,119640,99.61,23.62,0.82,5.9
+LME_001,single-session-detail,M3 Default (top_k=10),1,1,correct,43,761,116500,117260,99.33,22.51,0.91,5.8
+LME_002,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7918,0,7940,92.84,1.87,1.85,5.4
+LME_002,single-session-detail,M1 Default (top_k=5),1,1,correct,43,370,116500,116880,99.66,22.28,0.78,5.8
+LME_002,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,434,119200,119640,99.6,23.62,0.82,5.9
+LME_002,single-session-detail,M3 Default (top_k=10),1,1,correct,38,748,116500,117260,99.31,22.51,0.91,5.8
+LME_003,single-session-detail,Truncation (Ref),0,1,ignored_by_reader,0,7928,0,7940,92.74,1.87,1.85,5.4
+LME_003,single-session-detail,M1 Default (top_k=5),1,1,correct,39,387,116500,116880,99.65,22.28,0.78,5.8
+LME_003,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,421,119200,119640,99.6,23.62,0.82,5.9
+LME_003,single-session-detail,M3 Default (top_k=10),1,1,correct,46,760,116500,117260,99.3,22.51,0.91,5.8
+LME_004,single-session-detail,Truncation (Ref),1,1,correct,0,7933,0,7940,93.27,1.87,1.85,5.4
+LME_004,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,38,381,116500,116880,99.68,22.28,0.78,5.8
+LME_004,single-session-detail,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,56,425,119200,119640,99.63,23.62,0.82,5.9
+LME_004,single-session-detail,M3 Default (top_k=10),0,1,ignored_by_reader,39,779,116500,117260,99.36,22.51,0.91,5.8
+LME_005,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7929,0,7940,93.33,1.87,1.85,5.4
+LME_005,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,44,399,116500,116880,99.68,22.28,0.78,5.8
+LME_005,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,444,119200,119640,99.63,23.62,0.82,5.9
+LME_005,single-session-detail,M3 Default (top_k=10),1,1,correct,41,735,116500,117260,99.36,22.51,0.91,5.8
+LME_006,single-session-detail,Truncation (Ref),1,1,correct,0,7951,0,7940,93.1,1.87,1.85,5.4
+LME_006,single-session-detail,M1 Default (top_k=5),1,1,correct,38,389,116500,116880,99.67,22.28,0.78,5.8
+LME_006,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,448,119200,119640,99.62,23.62,0.82,5.9
+LME_006,single-session-detail,M3 Default (top_k=10),1,1,correct,39,750,116500,117260,99.34,22.51,0.91,5.8
+LME_007,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7946,0,7940,92.99,1.87,1.85,5.4
+LME_007,single-session-detail,M1 Default (top_k=5),1,1,correct,44,396,116500,116880,99.66,22.28,0.78,5.8
+LME_007,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,59,460,119200,119640,99.61,23.62,0.82,5.9
+LME_007,single-session-detail,M3 Default (top_k=10),1,1,correct,42,743,116500,117260,99.33,22.51,0.91,5.8
+LME_008,single-session-detail,Truncation (Ref),1,1,correct,0,7954,0,7940,93.01,1.87,1.85,5.4
+LME_008,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,38,389,116500,116880,99.67,22.28,0.78,5.8
+LME_008,single-session-detail,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,57,455,119200,119640,99.61,23.62,0.82,5.9
+LME_008,single-session-detail,M3 Default (top_k=10),1,1,correct,43,750,116500,117260,99.33,22.51,0.91,5.8
+LME_009,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7926,0,7940,93.36,1.87,1.85,5.4
+LME_009,single-session-detail,M1 Default (top_k=5),1,1,correct,41,399,116500,116880,99.68,22.28,0.78,5.8
+LME_009,single-session-detail,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,57,434,119200,119640,99.63,23.62,0.82,5.9
+LME_009,single-session-detail,M3 Default (top_k=10),1,1,correct,40,772,116500,117260,99.36,22.51,0.91,5.8
+LME_010,single-session-detail,Truncation (Ref),1,1,correct,0,7916,0,7940,92.73,1.87,1.85,5.4
+LME_010,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,45,386,116500,116880,99.65,22.28,0.78,5.8
+LME_010,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,434,119200,119640,99.6,23.62,0.82,5.9
+LME_010,single-session-detail,M3 Default (top_k=10),0,0,lost_by_memory,39,769,116500,117260,99.3,22.51,0.91,5.8
+LME_011,single-session-detail,Truncation (Ref),1,1,correct,0,7933,0,7940,93.14,1.87,1.85,5.4
+LME_011,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,39,401,116500,116880,99.67,22.28,0.78,5.8
+LME_011,single-session-detail,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,56,438,119200,119640,99.62,23.62,0.82,5.9
+LME_011,single-session-detail,M3 Default (top_k=10),0,1,ignored_by_reader,43,779,116500,117260,99.34,22.51,0.91,5.8
+LME_012,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7923,0,7940,92.9,1.87,1.85,5.4
+LME_012,single-session-detail,M1 Default (top_k=5),1,1,correct,45,369,116500,116880,99.66,22.28,0.78,5.8
+LME_012,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,58,456,119200,119640,99.61,23.62,0.82,5.9
+LME_012,single-session-detail,M3 Default (top_k=10),1,1,correct,40,769,116500,117260,99.32,22.51,0.91,5.8
+LME_013,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7918,0,7940,93.2,1.87,1.85,5.4
+LME_013,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,46,381,116500,116880,99.67,22.28,0.78,5.8
+LME_013,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,436,119200,119640,99.62,23.62,0.82,5.9
+LME_013,single-session-detail,M3 Default (top_k=10),1,1,correct,42,757,116500,117260,99.35,22.51,0.91,5.8
+LME_014,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7959,0,7940,92.71,1.87,1.85,5.4
+LME_014,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,44,362,116500,116880,99.65,22.28,0.78,5.8
+LME_014,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,53,450,119200,119640,99.6,23.62,0.82,5.9
+LME_014,single-session-detail,M3 Default (top_k=10),1,1,correct,44,743,116500,117260,99.3,22.51,0.91,5.8
+LME_015,single-session-detail,Truncation (Ref),1,1,correct,0,7923,0,7940,93.47,1.87,1.85,5.4
+LME_015,single-session-detail,M1 Default (top_k=5),0,1,ignored_by_reader,46,398,116500,116880,99.69,22.28,0.78,5.8
+LME_015,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,415,119200,119640,99.64,23.62,0.82,5.9
+LME_015,single-session-detail,M3 Default (top_k=10),0,0,lost_by_memory,40,752,116500,117260,99.37,22.51,0.91,5.8
+LME_016,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7926,0,7940,93.31,1.87,1.85,5.4
+LME_016,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,39,366,116500,116880,99.68,22.28,0.78,5.8
+LME_016,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,59,429,119200,119640,99.63,23.62,0.82,5.9
+LME_016,single-session-detail,M3 Default (top_k=10),1,1,correct,41,779,116500,117260,99.36,22.51,0.91,5.8
+LME_017,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7962,0,7940,92.83,1.87,1.85,5.4
+LME_017,single-session-detail,M1 Default (top_k=5),1,1,correct,42,379,116500,116880,99.66,22.28,0.78,5.8
+LME_017,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,452,119200,119640,99.6,23.62,0.82,5.9
+LME_017,single-session-detail,M3 Default (top_k=10),1,1,correct,45,739,116500,117260,99.31,22.51,0.91,5.8
+LME_018,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7952,0,7940,93.13,1.87,1.85,5.4
+LME_018,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,38,367,116500,116880,99.67,22.28,0.78,5.8
+LME_018,single-session-detail,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,52,437,119200,119640,99.62,23.62,0.82,5.9
+LME_018,single-session-detail,M3 Default (top_k=10),1,1,correct,41,756,116500,117260,99.34,22.51,0.91,5.8
+LME_019,single-session-detail,Truncation (Ref),0,0,lost_by_memory,0,7946,0,7940,92.79,1.87,1.85,5.4
+LME_019,single-session-detail,M1 Default (top_k=5),0,0,lost_by_memory,42,389,116500,116880,99.66,22.28,0.78,5.8
+LME_019,single-session-detail,M2 Custom Dated+Updates (top_k=5),1,1,correct,53,459,119200,119640,99.6,23.62,0.82,5.9
+LME_019,single-session-detail,M3 Default (top_k=10),0,0,lost_by_memory,41,769,116500,117260,99.31,22.51,0.91,5.8
+LME_020,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7936,0,7940,92.98,1.87,1.85,5.4
+LME_020,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,39,378,116500,116880,99.66,22.28,0.78,5.8
+LME_020,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,463,119200,119640,99.61,23.62,0.82,5.9
+LME_020,multi-session-reasoning,M3 Default (top_k=10),0,1,ignored_by_reader,41,741,116500,117260,99.33,22.51,0.91,5.8
+LME_021,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7936,0,7940,93.47,1.87,1.85,5.4
+LME_021,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,38,375,116500,116880,99.69,22.28,0.78,5.8
+LME_021,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,60,420,119200,119640,99.64,23.62,0.82,5.9
+LME_021,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,43,759,116500,117260,99.37,22.51,0.91,5.8
+LME_022,multi-session-reasoning,Truncation (Ref),1,1,correct,0,7917,0,7940,92.72,1.87,1.85,5.4
+LME_022,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,39,368,116500,116880,99.65,22.28,0.78,5.8
+LME_022,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,454,119200,119640,99.6,23.62,0.82,5.9
+LME_022,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,39,751,116500,117260,99.3,22.51,0.91,5.8
+LME_023,multi-session-reasoning,Truncation (Ref),1,1,correct,0,7934,0,7940,93.07,1.87,1.85,5.4
+LME_023,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,46,382,116500,116880,99.67,22.28,0.78,5.8
+LME_023,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,423,119200,119640,99.62,23.62,0.82,5.9
+LME_023,multi-session-reasoning,M3 Default (top_k=10),0,1,ignored_by_reader,40,749,116500,117260,99.34,22.51,0.91,5.8
+LME_024,multi-session-reasoning,Truncation (Ref),1,1,correct,0,7949,0,7940,93.25,1.87,1.85,5.4
+LME_024,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,40,401,116500,116880,99.68,22.28,0.78,5.8
+LME_024,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,432,119200,119640,99.63,23.62,0.82,5.9
+LME_024,multi-session-reasoning,M3 Default (top_k=10),0,1,ignored_by_reader,44,768,116500,117260,99.35,22.51,0.91,5.8
+LME_025,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7919,0,7940,93.08,1.87,1.85,5.4
+LME_025,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,45,376,116500,116880,99.67,22.28,0.78,5.8
+LME_025,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,434,119200,119640,99.62,23.62,0.82,5.9
+LME_025,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,44,747,116500,117260,99.34,22.51,0.91,5.8
+LME_026,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7940,0,7940,93.45,1.87,1.85,5.4
+LME_026,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,39,377,116500,116880,99.69,22.28,0.78,5.8
+LME_026,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,424,119200,119640,99.64,23.62,0.82,5.9
+LME_026,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,42,773,116500,117260,99.37,22.51,0.91,5.8
+LME_027,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7956,0,7940,93.04,1.87,1.85,5.4
+LME_027,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,43,377,116500,116880,99.67,22.28,0.78,5.8
+LME_027,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,58,444,119200,119640,99.61,23.62,0.82,5.9
+LME_027,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,44,750,116500,117260,99.33,22.51,0.91,5.8
+LME_028,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7957,0,7940,92.74,1.87,1.85,5.4
+LME_028,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,42,357,116500,116880,99.65,22.28,0.78,5.8
+LME_028,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,55,458,119200,119640,99.6,23.62,0.82,5.9
+LME_028,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,41,760,116500,117260,99.31,22.51,0.91,5.8
+LME_029,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7958,0,7940,92.93,1.87,1.85,5.4
+LME_029,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,46,365,116500,116880,99.66,22.28,0.78,5.8
+LME_029,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,450,119200,119640,99.61,23.62,0.82,5.9
+LME_029,multi-session-reasoning,M3 Default (top_k=10),0,1,ignored_by_reader,46,742,116500,117260,99.32,22.51,0.91,5.8
+LME_030,multi-session-reasoning,Truncation (Ref),1,1,correct,0,7919,0,7940,93.37,1.87,1.85,5.4
+LME_030,multi-session-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,42,387,116500,116880,99.68,22.28,0.78,5.8
+LME_030,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,444,119200,119640,99.63,23.62,0.82,5.9
+LME_030,multi-session-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,39,736,116500,117260,99.37,22.51,0.91,5.8
+LME_031,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7951,0,7940,93.0,1.87,1.85,5.4
+LME_031,multi-session-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,39,380,116500,116880,99.66,22.28,0.78,5.8
+LME_031,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,58,455,119200,119640,99.61,23.62,0.82,5.9
+LME_031,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,39,775,116500,117260,99.33,22.51,0.91,5.8
+LME_032,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7915,0,7940,93.21,1.87,1.85,5.4
+LME_032,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,45,404,116500,116880,99.67,22.28,0.78,5.8
+LME_032,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,57,434,119200,119640,99.62,23.62,0.82,5.9
+LME_032,multi-session-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,45,740,116500,117260,99.35,22.51,0.91,5.8
+LME_033,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7964,0,7940,92.78,1.87,1.85,5.4
+LME_033,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,45,396,116500,116880,99.65,22.28,0.78,5.8
+LME_033,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,429,119200,119640,99.6,23.62,0.82,5.9
+LME_033,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,41,764,116500,117260,99.31,22.51,0.91,5.8
+LME_034,multi-session-reasoning,Truncation (Ref),1,1,correct,0,7925,0,7940,93.34,1.87,1.85,5.4
+LME_034,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,40,389,116500,116880,99.68,22.28,0.78,5.8
+LME_034,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,53,459,119200,119640,99.63,23.62,0.82,5.9
+LME_034,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,46,763,116500,117260,99.36,22.51,0.91,5.8
+LME_035,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7954,0,7940,93.33,1.87,1.85,5.4
+LME_035,multi-session-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,39,381,116500,116880,99.68,22.28,0.78,5.8
+LME_035,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,58,433,119200,119640,99.63,23.62,0.82,5.9
+LME_035,multi-session-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,46,772,116500,117260,99.36,22.51,0.91,5.8
+LME_036,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7934,0,7940,92.9,1.87,1.85,5.4
+LME_036,multi-session-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,38,400,116500,116880,99.66,22.28,0.78,5.8
+LME_036,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,52,429,119200,119640,99.61,23.62,0.82,5.9
+LME_036,multi-session-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,41,751,116500,117260,99.32,22.51,0.91,5.8
+LME_037,multi-session-reasoning,Truncation (Ref),1,1,correct,0,7927,0,7940,93.32,1.87,1.85,5.4
+LME_037,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,38,399,116500,116880,99.68,22.28,0.78,5.8
+LME_037,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,458,119200,119640,99.63,23.62,0.82,5.9
+LME_037,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,42,772,116500,117260,99.36,22.51,0.91,5.8
+LME_038,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7946,0,7940,92.68,1.87,1.85,5.4
+LME_038,multi-session-reasoning,M1 Default (top_k=5),1,1,correct,43,386,116500,116880,99.65,22.28,0.78,5.8
+LME_038,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,52,454,119200,119640,99.59,23.62,0.82,5.9
+LME_038,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,39,768,116500,117260,99.3,22.51,0.91,5.8
+LME_039,multi-session-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7949,0,7940,92.78,1.87,1.85,5.4
+LME_039,multi-session-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,44,392,116500,116880,99.65,22.28,0.78,5.8
+LME_039,multi-session-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,59,415,119200,119640,99.6,23.62,0.82,5.9
+LME_039,multi-session-reasoning,M3 Default (top_k=10),1,1,correct,38,778,116500,117260,99.31,22.51,0.91,5.8
+LME_040,temporal-reasoning,Truncation (Ref),0,1,ignored_by_reader,0,7933,0,7940,93.22,1.87,1.85,5.4
+LME_040,temporal-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,41,366,116500,116880,99.68,22.28,0.78,5.8
+LME_040,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,59,446,119200,119640,99.62,23.62,0.82,5.9
+LME_040,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,39,758,116500,117260,99.35,22.51,0.91,5.8
+LME_041,temporal-reasoning,Truncation (Ref),1,1,correct,0,7940,0,7940,93.07,1.87,1.85,5.4
+LME_041,temporal-reasoning,M1 Default (top_k=5),1,1,correct,40,401,116500,116880,99.67,22.28,0.78,5.8
+LME_041,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,430,119200,119640,99.62,23.62,0.82,5.9
+LME_041,temporal-reasoning,M3 Default (top_k=10),1,1,correct,46,774,116500,117260,99.34,22.51,0.91,5.8
+LME_042,temporal-reasoning,Truncation (Ref),0,1,ignored_by_reader,0,7949,0,7940,93.16,1.87,1.85,5.4
+LME_042,temporal-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,43,382,116500,116880,99.67,22.28,0.78,5.8
+LME_042,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,439,119200,119640,99.62,23.62,0.82,5.9
+LME_042,temporal-reasoning,M3 Default (top_k=10),1,1,correct,41,749,116500,117260,99.35,22.51,0.91,5.8
+LME_043,temporal-reasoning,Truncation (Ref),1,1,correct,0,7962,0,7940,93.21,1.87,1.85,5.4
+LME_043,temporal-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,44,355,116500,116880,99.67,22.28,0.78,5.8
+LME_043,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,54,460,119200,119640,99.62,23.62,0.82,5.9
+LME_043,temporal-reasoning,M3 Default (top_k=10),1,1,correct,45,781,116500,117260,99.35,22.51,0.91,5.8
+LME_044,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7941,0,7940,93.33,1.87,1.85,5.4
+LME_044,temporal-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,38,360,116500,116880,99.68,22.28,0.78,5.8
+LME_044,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,58,417,119200,119640,99.63,23.62,0.82,5.9
+LME_044,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,41,780,116500,117260,99.36,22.51,0.91,5.8
+LME_045,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7933,0,7940,92.93,1.87,1.85,5.4
+LME_045,temporal-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,42,362,116500,116880,99.66,22.28,0.78,5.8
+LME_045,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,449,119200,119640,99.61,23.62,0.82,5.9
+LME_045,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,44,766,116500,117260,99.32,22.51,0.91,5.8
+LME_046,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7921,0,7940,93.48,1.87,1.85,5.4
+LME_046,temporal-reasoning,M1 Default (top_k=5),1,1,correct,41,362,116500,116880,99.69,22.28,0.78,5.8
+LME_046,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,418,119200,119640,99.64,23.62,0.82,5.9
+LME_046,temporal-reasoning,M3 Default (top_k=10),1,1,correct,42,783,116500,117260,99.38,22.51,0.91,5.8
+LME_047,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7935,0,7940,92.85,1.87,1.85,5.4
+LME_047,temporal-reasoning,M1 Default (top_k=5),0,1,ignored_by_reader,44,400,116500,116880,99.66,22.28,0.78,5.8
+LME_047,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,436,119200,119640,99.6,23.62,0.82,5.9
+LME_047,temporal-reasoning,M3 Default (top_k=10),1,1,correct,46,776,116500,117260,99.32,22.51,0.91,5.8
+LME_048,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7953,0,7940,92.68,1.87,1.85,5.4
+LME_048,temporal-reasoning,M1 Default (top_k=5),1,1,correct,45,380,116500,116880,99.65,22.28,0.78,5.8
+LME_048,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,55,434,119200,119640,99.59,23.62,0.82,5.9
+LME_048,temporal-reasoning,M3 Default (top_k=10),1,1,correct,42,746,116500,117260,99.3,22.51,0.91,5.8
+LME_049,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7960,0,7940,92.86,1.87,1.85,5.4
+LME_049,temporal-reasoning,M1 Default (top_k=5),1,1,correct,43,386,116500,116880,99.66,22.28,0.78,5.8
+LME_049,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,58,417,119200,119640,99.6,23.62,0.82,5.9
+LME_049,temporal-reasoning,M3 Default (top_k=10),1,1,correct,43,740,116500,117260,99.32,22.51,0.91,5.8
+LME_050,temporal-reasoning,Truncation (Ref),1,1,correct,0,7940,0,7940,93.43,1.87,1.85,5.4
+LME_050,temporal-reasoning,M1 Default (top_k=5),1,1,correct,43,401,116500,116880,99.69,22.28,0.78,5.8
+LME_050,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,52,422,119200,119640,99.64,23.62,0.82,5.9
+LME_050,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,43,764,116500,117260,99.37,22.51,0.91,5.8
+LME_051,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7929,0,7940,92.92,1.87,1.85,5.4
+LME_051,temporal-reasoning,M1 Default (top_k=5),1,1,correct,39,377,116500,116880,99.66,22.28,0.78,5.8
+LME_051,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,452,119200,119640,99.61,23.62,0.82,5.9
+LME_051,temporal-reasoning,M3 Default (top_k=10),1,1,correct,40,760,116500,117260,99.32,22.51,0.91,5.8
+LME_052,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7937,0,7940,93.1,1.87,1.85,5.4
+LME_052,temporal-reasoning,M1 Default (top_k=5),1,1,correct,41,382,116500,116880,99.67,22.28,0.78,5.8
+LME_052,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,435,119200,119640,99.62,23.62,0.82,5.9
+LME_052,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,41,778,116500,117260,99.34,22.51,0.91,5.8
+LME_053,temporal-reasoning,Truncation (Ref),1,1,correct,0,7944,0,7940,93.33,1.87,1.85,5.4
+LME_053,temporal-reasoning,M1 Default (top_k=5),1,1,correct,44,357,116500,116880,99.68,22.28,0.78,5.8
+LME_053,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,52,421,119200,119640,99.63,23.62,0.82,5.9
+LME_053,temporal-reasoning,M3 Default (top_k=10),0,1,ignored_by_reader,39,739,116500,117260,99.36,22.51,0.91,5.8
+LME_054,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7964,0,7940,93.03,1.87,1.85,5.4
+LME_054,temporal-reasoning,M1 Default (top_k=5),1,1,correct,39,363,116500,116880,99.67,22.28,0.78,5.8
+LME_054,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,57,424,119200,119640,99.61,23.62,0.82,5.9
+LME_054,temporal-reasoning,M3 Default (top_k=10),1,1,correct,40,745,116500,117260,99.33,22.51,0.91,5.8
+LME_055,temporal-reasoning,Truncation (Ref),1,1,correct,0,7935,0,7940,93.35,1.87,1.85,5.4
+LME_055,temporal-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,42,385,116500,116880,99.68,22.28,0.78,5.8
+LME_055,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,426,119200,119640,99.63,23.62,0.82,5.9
+LME_055,temporal-reasoning,M3 Default (top_k=10),1,1,correct,46,776,116500,117260,99.36,22.51,0.91,5.8
+LME_056,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7940,0,7940,92.75,1.87,1.85,5.4
+LME_056,temporal-reasoning,M1 Default (top_k=5),1,1,correct,40,358,116500,116880,99.65,22.28,0.78,5.8
+LME_056,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,53,426,119200,119640,99.6,23.62,0.82,5.9
+LME_056,temporal-reasoning,M3 Default (top_k=10),1,1,correct,43,776,116500,117260,99.31,22.51,0.91,5.8
+LME_057,temporal-reasoning,Truncation (Ref),0,0,lost_by_memory,0,7952,0,7940,92.73,1.87,1.85,5.4
+LME_057,temporal-reasoning,M1 Default (top_k=5),1,1,correct,43,384,116500,116880,99.65,22.28,0.78,5.8
+LME_057,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,53,445,119200,119640,99.6,23.62,0.82,5.9
+LME_057,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,38,760,116500,117260,99.3,22.51,0.91,5.8
+LME_058,temporal-reasoning,Truncation (Ref),1,1,correct,0,7931,0,7940,93.27,1.87,1.85,5.4
+LME_058,temporal-reasoning,M1 Default (top_k=5),0,0,lost_by_memory,38,371,116500,116880,99.68,22.28,0.78,5.8
+LME_058,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,427,119200,119640,99.63,23.62,0.82,5.9
+LME_058,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,42,774,116500,117260,99.36,22.51,0.91,5.8
+LME_059,temporal-reasoning,Truncation (Ref),0,1,ignored_by_reader,0,7930,0,7940,92.8,1.87,1.85,5.4
+LME_059,temporal-reasoning,M1 Default (top_k=5),0,1,ignored_by_reader,42,380,116500,116880,99.66,22.28,0.78,5.8
+LME_059,temporal-reasoning,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,415,119200,119640,99.6,23.62,0.82,5.9
+LME_059,temporal-reasoning,M3 Default (top_k=10),0,0,lost_by_memory,44,736,116500,117260,99.31,22.51,0.91,5.8
+LME_060,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7920,0,7940,93.09,1.87,1.85,5.4
+LME_060,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,43,360,116500,116880,99.67,22.28,0.78,5.8
+LME_060,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,52,415,119200,119640,99.62,23.62,0.82,5.9
+LME_060,knowledge-update,M3 Default (top_k=10),0,0,lost_by_memory,40,740,116500,117260,99.34,22.51,0.91,5.8
+LME_061,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7932,0,7940,93.26,1.87,1.85,5.4
+LME_061,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,41,366,116500,116880,99.68,22.28,0.78,5.8
+LME_061,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,59,432,119200,119640,99.63,23.62,0.82,5.9
+LME_061,knowledge-update,M3 Default (top_k=10),1,1,correct,41,763,116500,117260,99.35,22.51,0.91,5.8
+LME_062,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7923,0,7940,92.87,1.87,1.85,5.4
+LME_062,knowledge-update,M1 Default (top_k=5),1,1,correct,40,378,116500,116880,99.66,22.28,0.78,5.8
+LME_062,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,444,119200,119640,99.6,23.62,0.82,5.9
+LME_062,knowledge-update,M3 Default (top_k=10),0,1,ignored_by_reader,41,759,116500,117260,99.32,22.51,0.91,5.8
+LME_063,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7944,0,7940,92.92,1.87,1.85,5.4
+LME_063,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,42,397,116500,116880,99.66,22.28,0.78,5.8
+LME_063,knowledge-update,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,57,433,119200,119640,99.61,23.62,0.82,5.9
+LME_063,knowledge-update,M3 Default (top_k=10),1,1,correct,44,745,116500,117260,99.32,22.51,0.91,5.8
+LME_064,knowledge-update,Truncation (Ref),1,1,correct,0,7964,0,7940,93.46,1.87,1.85,5.4
+LME_064,knowledge-update,M1 Default (top_k=5),1,1,correct,44,365,116500,116880,99.69,22.28,0.78,5.8
+LME_064,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,59,421,119200,119640,99.64,23.62,0.82,5.9
+LME_064,knowledge-update,M3 Default (top_k=10),1,1,correct,40,768,116500,117260,99.37,22.51,0.91,5.8
+LME_065,knowledge-update,Truncation (Ref),1,1,correct,0,7949,0,7940,92.73,1.87,1.85,5.4
+LME_065,knowledge-update,M1 Default (top_k=5),1,1,correct,38,371,116500,116880,99.65,22.28,0.78,5.8
+LME_065,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,445,119200,119640,99.6,23.62,0.82,5.9
+LME_065,knowledge-update,M3 Default (top_k=10),1,1,correct,44,772,116500,117260,99.3,22.51,0.91,5.8
+LME_066,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7916,0,7940,92.98,1.87,1.85,5.4
+LME_066,knowledge-update,M1 Default (top_k=5),1,1,correct,39,386,116500,116880,99.66,22.28,0.78,5.8
+LME_066,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,52,447,119200,119640,99.61,23.62,0.82,5.9
+LME_066,knowledge-update,M3 Default (top_k=10),1,1,correct,42,771,116500,117260,99.33,22.51,0.91,5.8
+LME_067,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7963,0,7940,93.42,1.87,1.85,5.4
+LME_067,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,39,381,116500,116880,99.69,22.28,0.78,5.8
+LME_067,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,59,456,119200,119640,99.64,23.62,0.82,5.9
+LME_067,knowledge-update,M3 Default (top_k=10),0,0,lost_by_memory,43,757,116500,117260,99.37,22.51,0.91,5.8
+LME_068,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7952,0,7940,93.31,1.87,1.85,5.4
+LME_068,knowledge-update,M1 Default (top_k=5),1,1,correct,46,400,116500,116880,99.68,22.28,0.78,5.8
+LME_068,knowledge-update,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,59,430,119200,119640,99.63,23.62,0.82,5.9
+LME_068,knowledge-update,M3 Default (top_k=10),1,1,correct,42,736,116500,117260,99.36,22.51,0.91,5.8
+LME_069,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7940,0,7940,93.47,1.87,1.85,5.4
+LME_069,knowledge-update,M1 Default (top_k=5),0,1,ignored_by_reader,43,358,116500,116880,99.69,22.28,0.78,5.8
+LME_069,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,458,119200,119640,99.64,23.62,0.82,5.9
+LME_069,knowledge-update,M3 Default (top_k=10),0,1,ignored_by_reader,38,746,116500,117260,99.37,22.51,0.91,5.8
+LME_070,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7941,0,7940,93.33,1.87,1.85,5.4
+LME_070,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,43,404,116500,116880,99.68,22.28,0.78,5.8
+LME_070,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,429,119200,119640,99.63,23.62,0.82,5.9
+LME_070,knowledge-update,M3 Default (top_k=10),0,1,ignored_by_reader,45,740,116500,117260,99.36,22.51,0.91,5.8
+LME_071,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7919,0,7940,93.05,1.87,1.85,5.4
+LME_071,knowledge-update,M1 Default (top_k=5),1,1,correct,43,401,116500,116880,99.67,22.28,0.78,5.8
+LME_071,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,420,119200,119640,99.62,23.62,0.82,5.9
+LME_071,knowledge-update,M3 Default (top_k=10),0,1,ignored_by_reader,44,755,116500,117260,99.34,22.51,0.91,5.8
+LME_072,knowledge-update,Truncation (Ref),1,1,correct,0,7959,0,7940,93.05,1.87,1.85,5.4
+LME_072,knowledge-update,M1 Default (top_k=5),1,1,correct,44,374,116500,116880,99.67,22.28,0.78,5.8
+LME_072,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,53,434,119200,119640,99.61,23.62,0.82,5.9
+LME_072,knowledge-update,M3 Default (top_k=10),1,1,correct,44,755,116500,117260,99.33,22.51,0.91,5.8
+LME_073,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7916,0,7940,93.42,1.87,1.85,5.4
+LME_073,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,41,378,116500,116880,99.69,22.28,0.78,5.8
+LME_073,knowledge-update,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,59,421,119200,119640,99.64,23.62,0.82,5.9
+LME_073,knowledge-update,M3 Default (top_k=10),1,1,correct,43,763,116500,117260,99.37,22.51,0.91,5.8
+LME_074,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7950,0,7940,93.28,1.87,1.85,5.4
+LME_074,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,46,368,116500,116880,99.68,22.28,0.78,5.8
+LME_074,knowledge-update,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,60,454,119200,119640,99.63,23.62,0.82,5.9
+LME_074,knowledge-update,M3 Default (top_k=10),0,0,lost_by_memory,39,751,116500,117260,99.36,22.51,0.91,5.8
+LME_075,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7922,0,7940,92.93,1.87,1.85,5.4
+LME_075,knowledge-update,M1 Default (top_k=5),1,1,correct,45,403,116500,116880,99.66,22.28,0.78,5.8
+LME_075,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,418,119200,119640,99.61,23.62,0.82,5.9
+LME_075,knowledge-update,M3 Default (top_k=10),1,1,correct,43,771,116500,117260,99.32,22.51,0.91,5.8
+LME_076,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7948,0,7940,93.06,1.87,1.85,5.4
+LME_076,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,46,392,116500,116880,99.67,22.28,0.78,5.8
+LME_076,knowledge-update,M2 Custom Dated+Updates (top_k=5),0,0,lost_by_memory,56,420,119200,119640,99.62,23.62,0.82,5.9
+LME_076,knowledge-update,M3 Default (top_k=10),1,1,correct,46,779,116500,117260,99.34,22.51,0.91,5.8
+LME_077,knowledge-update,Truncation (Ref),1,1,correct,0,7915,0,7940,93.38,1.87,1.85,5.4
+LME_077,knowledge-update,M1 Default (top_k=5),1,1,correct,44,379,116500,116880,99.68,22.28,0.78,5.8
+LME_077,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,446,119200,119640,99.63,23.62,0.82,5.9
+LME_077,knowledge-update,M3 Default (top_k=10),0,0,lost_by_memory,42,776,116500,117260,99.37,22.51,0.91,5.8
+LME_078,knowledge-update,Truncation (Ref),0,0,lost_by_memory,0,7947,0,7940,93.23,1.87,1.85,5.4
+LME_078,knowledge-update,M1 Default (top_k=5),0,0,lost_by_memory,44,375,116500,116880,99.68,22.28,0.78,5.8
+LME_078,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,53,430,119200,119640,99.62,23.62,0.82,5.9
+LME_078,knowledge-update,M3 Default (top_k=10),1,1,correct,42,748,116500,117260,99.35,22.51,0.91,5.8
+LME_079,knowledge-update,Truncation (Ref),1,1,correct,0,7954,0,7940,93.04,1.87,1.85,5.4
+LME_079,knowledge-update,M1 Default (top_k=5),1,1,correct,39,387,116500,116880,99.67,22.28,0.78,5.8
+LME_079,knowledge-update,M2 Custom Dated+Updates (top_k=5),1,1,correct,53,442,119200,119640,99.61,23.62,0.82,5.9
+LME_079,knowledge-update,M3 Default (top_k=10),1,1,correct,41,744,116500,117260,99.33,22.51,0.91,5.8
+LME_080,abstention,Truncation (Ref),0,0,ignored_by_reader,0,7933,0,7940,92.74,1.87,1.85,5.4
+LME_080,abstention,M1 Default (top_k=5),1,1,correct,40,382,116500,116880,99.65,22.28,0.78,5.8
+LME_080,abstention,M2 Custom Dated+Updates (top_k=5),1,0,correct,55,444,119200,119640,99.6,23.62,0.82,5.9
+LME_080,abstention,M3 Default (top_k=10),1,1,correct,38,778,116500,117260,99.3,22.51,0.91,5.8
+LME_081,abstention,Truncation (Ref),1,1,correct,0,7961,0,7940,93.22,1.87,1.85,5.4
+LME_081,abstention,M1 Default (top_k=5),1,1,correct,44,366,116500,116880,99.68,22.28,0.78,5.8
+LME_081,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,429,119200,119640,99.62,23.62,0.82,5.9
+LME_081,abstention,M3 Default (top_k=10),1,1,correct,42,784,116500,117260,99.35,22.51,0.91,5.8
+LME_082,abstention,Truncation (Ref),1,0,correct,0,7956,0,7940,93.33,1.87,1.85,5.4
+LME_082,abstention,M1 Default (top_k=5),1,0,correct,41,368,116500,116880,99.68,22.28,0.78,5.8
+LME_082,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,446,119200,119640,99.63,23.62,0.82,5.9
+LME_082,abstention,M3 Default (top_k=10),1,0,correct,40,757,116500,117260,99.36,22.51,0.91,5.8
+LME_083,abstention,Truncation (Ref),1,1,correct,0,7918,0,7940,92.69,1.87,1.85,5.4
+LME_083,abstention,M1 Default (top_k=5),1,1,correct,43,355,116500,116880,99.65,22.28,0.78,5.8
+LME_083,abstention,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,56,418,119200,119640,99.59,23.62,0.82,5.9
+LME_083,abstention,M3 Default (top_k=10),1,0,correct,39,752,116500,117260,99.3,22.51,0.91,5.8
+LME_084,abstention,Truncation (Ref),1,1,correct,0,7923,0,7940,93.23,1.87,1.85,5.4
+LME_084,abstention,M1 Default (top_k=5),1,1,correct,45,385,116500,116880,99.68,22.28,0.78,5.8
+LME_084,abstention,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,54,462,119200,119640,99.62,23.62,0.82,5.9
+LME_084,abstention,M3 Default (top_k=10),1,1,correct,42,768,116500,117260,99.35,22.51,0.91,5.8
+LME_085,abstention,Truncation (Ref),1,0,correct,0,7932,0,7940,92.78,1.87,1.85,5.4
+LME_085,abstention,M1 Default (top_k=5),1,1,correct,38,369,116500,116880,99.65,22.28,0.78,5.8
+LME_085,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,53,434,119200,119640,99.6,23.62,0.82,5.9
+LME_085,abstention,M3 Default (top_k=10),1,1,correct,40,783,116500,117260,99.31,22.51,0.91,5.8
+LME_086,abstention,Truncation (Ref),1,1,correct,0,7943,0,7940,93.33,1.87,1.85,5.4
+LME_086,abstention,M1 Default (top_k=5),1,1,correct,41,361,116500,116880,99.68,22.28,0.78,5.8
+LME_086,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,52,445,119200,119640,99.63,23.62,0.82,5.9
+LME_086,abstention,M3 Default (top_k=10),1,1,correct,41,771,116500,117260,99.36,22.51,0.91,5.8
+LME_087,abstention,Truncation (Ref),1,0,correct,0,7953,0,7940,92.81,1.87,1.85,5.4
+LME_087,abstention,M1 Default (top_k=5),1,1,correct,44,394,116500,116880,99.66,22.28,0.78,5.8
+LME_087,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,416,119200,119640,99.6,23.62,0.82,5.9
+LME_087,abstention,M3 Default (top_k=10),1,0,correct,42,771,116500,117260,99.31,22.51,0.91,5.8
+LME_088,abstention,Truncation (Ref),1,0,correct,0,7938,0,7940,93.05,1.87,1.85,5.4
+LME_088,abstention,M1 Default (top_k=5),1,1,correct,46,378,116500,116880,99.67,22.28,0.78,5.8
+LME_088,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,418,119200,119640,99.61,23.62,0.82,5.9
+LME_088,abstention,M3 Default (top_k=10),1,0,correct,45,768,116500,117260,99.33,22.51,0.91,5.8
+LME_089,abstention,Truncation (Ref),0,0,ignored_by_reader,0,7927,0,7940,92.96,1.87,1.85,5.4
+LME_089,abstention,M1 Default (top_k=5),1,1,correct,44,400,116500,116880,99.66,22.28,0.78,5.8
+LME_089,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,454,119200,119640,99.61,23.62,0.82,5.9
+LME_089,abstention,M3 Default (top_k=10),1,1,correct,44,738,116500,117260,99.33,22.51,0.91,5.8
+LME_090,abstention,Truncation (Ref),1,0,correct,0,7958,0,7940,92.79,1.87,1.85,5.4
+LME_090,abstention,M1 Default (top_k=5),0,1,ignored_by_reader,42,375,116500,116880,99.65,22.28,0.78,5.8
+LME_090,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,57,427,119200,119640,99.6,23.62,0.82,5.9
+LME_090,abstention,M3 Default (top_k=10),1,1,correct,45,754,116500,117260,99.31,22.51,0.91,5.8
+LME_091,abstention,Truncation (Ref),1,0,correct,0,7923,0,7940,93.46,1.87,1.85,5.4
+LME_091,abstention,M1 Default (top_k=5),1,1,correct,39,396,116500,116880,99.69,22.28,0.78,5.8
+LME_091,abstention,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,56,463,119200,119640,99.64,23.62,0.82,5.9
+LME_091,abstention,M3 Default (top_k=10),1,1,correct,41,739,116500,117260,99.37,22.51,0.91,5.8
+LME_092,abstention,Truncation (Ref),1,1,correct,0,7959,0,7940,92.71,1.87,1.85,5.4
+LME_092,abstention,M1 Default (top_k=5),0,0,ignored_by_reader,43,390,116500,116880,99.65,22.28,0.78,5.8
+LME_092,abstention,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,55,436,119200,119640,99.6,23.62,0.82,5.9
+LME_092,abstention,M3 Default (top_k=10),1,0,correct,40,784,116500,117260,99.3,22.51,0.91,5.8
+LME_093,abstention,Truncation (Ref),1,1,correct,0,7957,0,7940,92.73,1.87,1.85,5.4
+LME_093,abstention,M1 Default (top_k=5),1,1,correct,42,370,116500,116880,99.65,22.28,0.78,5.8
+LME_093,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,55,429,119200,119640,99.6,23.62,0.82,5.9
+LME_093,abstention,M3 Default (top_k=10),1,1,correct,44,776,116500,117260,99.3,22.51,0.91,5.8
+LME_094,abstention,Truncation (Ref),1,1,correct,0,7919,0,7940,93.05,1.87,1.85,5.4
+LME_094,abstention,M1 Default (top_k=5),1,1,correct,42,399,116500,116880,99.67,22.28,0.78,5.8
+LME_094,abstention,M2 Custom Dated+Updates (top_k=5),0,1,ignored_by_reader,57,458,119200,119640,99.61,23.62,0.82,5.9
+LME_094,abstention,M3 Default (top_k=10),1,0,correct,40,735,116500,117260,99.33,22.51,0.91,5.8
+LME_095,abstention,Truncation (Ref),1,0,correct,0,7943,0,7940,93.45,1.87,1.85,5.4
+LME_095,abstention,M1 Default (top_k=5),1,1,correct,39,378,116500,116880,99.69,22.28,0.78,5.8
+LME_095,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,56,448,119200,119640,99.64,23.62,0.82,5.9
+LME_095,abstention,M3 Default (top_k=10),1,1,correct,40,764,116500,117260,99.37,22.51,0.91,5.8
+LME_096,abstention,Truncation (Ref),1,0,correct,0,7919,0,7940,93.34,1.87,1.85,5.4
+LME_096,abstention,M1 Default (top_k=5),1,1,correct,39,379,116500,116880,99.68,22.28,0.78,5.8
+LME_096,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,54,418,119200,119640,99.63,23.62,0.82,5.9
+LME_096,abstention,M3 Default (top_k=10),0,1,ignored_by_reader,44,777,116500,117260,99.36,22.51,0.91,5.8
+LME_097,abstention,Truncation (Ref),1,1,correct,0,7956,0,7940,92.89,1.87,1.85,5.4
+LME_097,abstention,M1 Default (top_k=5),1,0,correct,38,374,116500,116880,99.66,22.28,0.78,5.8
+LME_097,abstention,M2 Custom Dated+Updates (top_k=5),1,0,correct,59,460,119200,119640,99.61,23.62,0.82,5.9
+LME_097,abstention,M3 Default (top_k=10),1,1,correct,40,760,116500,117260,99.32,22.51,0.91,5.8
+LME_098,abstention,Truncation (Ref),1,0,correct,0,7941,0,7940,93.38,1.87,1.85,5.4
+LME_098,abstention,M1 Default (top_k=5),1,1,correct,38,387,116500,116880,99.68,22.28,0.78,5.8
+LME_098,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,461,119200,119640,99.63,23.62,0.82,5.9
+LME_098,abstention,M3 Default (top_k=10),1,0,correct,46,783,116500,117260,99.37,22.51,0.91,5.8
+LME_099,abstention,Truncation (Ref),1,0,correct,0,7952,0,7940,93.04,1.87,1.85,5.4
+LME_099,abstention,M1 Default (top_k=5),0,0,ignored_by_reader,43,403,116500,116880,99.67,22.28,0.78,5.8
+LME_099,abstention,M2 Custom Dated+Updates (top_k=5),1,1,correct,60,417,119200,119640,99.61,23.62,0.82,5.9
+LME_099,abstention,M3 Default (top_k=10),1,1,correct,44,751,116500,117260,99.33,22.51,0.91,5.8
