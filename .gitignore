@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables & API keys
+.env
+*.env
+
+# Large raw datasets & cached model weights (keep .gitkeep & small subset JSONs)
+data/raw/*.json
+data/raw/*.jsonl
+data/raw/*.parquet
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
